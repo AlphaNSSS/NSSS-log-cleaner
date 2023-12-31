@@ -1,127 +1,51 @@
-================================2023-11-12================================
-19:49:28 | Adrae [189.158.5.136] logged in with entity id 150 at (9.3657423983098, 75.0, -7.241430063275846)
+========================================== 2023-11-12 ==========================================
+19:49:28 | LOGIN  -> Adrae [189.158.5.136] at (9,75,-7)
 19:49:57 | <§bAdrae§f> let's goo
 19:50:14 | <§bAdrae§f> arson is no more
-19:53:29 | EncryptedDvjjrxv [95.90.246.219] logged in with entity id 4170 at (77.6374910782055, 83.0, 26.84364327085129)
+19:53:29 | LOGIN  -> EncryptedDvjjrxv [95.90.246.219] at (77,83,26)
 19:53:45 | <§aEncryptedDvjjrxv§f> oh my signs are still here thank god
 19:53:47 | <§aEncryptedDvjjrxv§f> ok bye!
-19:53:48 | EncryptedDvjjrxv lost connection: disconnect.quitting
-19:54:19 | Ino_7587 [92.184.119.179] logged in with entity id 4931 at (308.83444642371506, 112.0, 171.11097342298842)
-19:54:26 | Ino_7587 lost connection: disconnect.quitting
-20:03:36 | Adrae lost connection: disconnect.quitting
-20:15:36 | /51.15.34.47:61000 lost connection
-21:06:00 | /51.15.34.47:61000 lost connection
-21:18:28 | Adrae [189.158.5.136] logged in with entity id 26376 at (-35.193598125509425, 69.0, -246.89651507423548)
-21:19:40 | Adrae lost connection: disconnect.quitting
-21:46:38 | /51.15.34.47:61000 lost connection
-22:42:39 | /51.15.34.47:61000 lost connection
-================================2023-11-13================================
-00:19:50 | /51.15.34.47:61000 lost connection
-00:31:18 | /51.15.34.47:61000 lost connection
-02:19:31 | /51.15.34.47:61000 lost connection
-03:59:02 | /51.15.34.47:61000 lost connection
-07:39:21 | /51.15.34.47:61000 lost connection
-09:55:46 | /51.15.34.47:61000 lost connection
-11:24:58 | EncryptedDvjjrxv [62.72.69.13] logged in with entity id 173 at (80.22096919898456, 84.0, 24.249503488221883)
-11:28:05 | EncryptedDvjjrxv lost connection: disconnect.quitting
-13:45:53 | EncryptedDvjjrxv [62.72.69.13] logged in with entity id 10629 at (42.66652215616012, 66.0, 69.85401152957327)
-14:00:46 | EncryptedDvjjrxv lost connection: disconnect.quitting
-16:15:46 | /51.15.34.47:61000 lost connection
-20:34:41 | /51.15.34.47:61000 lost connection
-20:47:42 | Adrae [189.158.5.136] logged in with entity id 28495 at (-23.552020088281438, 65.0, -96.9991069823817)
-20:49:10 | Adrae lost connection: disconnect.quitting
-20:51:22 | /51.15.34.47:61000 lost connection
-21:14:21 | /51.15.34.47:61000 lost connection
-================================2023-11-14================================
-06:31:02 | /51.15.34.47:61000 lost connection
-06:47:52 | /51.15.34.47:61000 lost connection
-16:14:49 | /51.15.34.47:61000 lost connection
-16:28:13 | /51.15.34.47:61000 lost connection
-22:54:10 | /51.15.34.47:61000 lost connection
-================================2023-11-15================================
-02:41:27 | /51.15.34.47:61000 lost connection
-03:29:09 | Adrae [189.158.5.136] logged in with entity id 116 at (55.112770682396246, 66.0, 25.416647215473382)
-03:30:02 | Adrae lost connection: disconnect.quitting
-06:53:38 | /51.15.34.47:61000 lost connection
-07:44:50 | /51.15.34.47:61000 lost connection
-08:01:15 | /51.15.34.47:61000 lost connection
-08:09:53 | /51.15.34.47:61000 lost connection
-08:25:54 | /70.188.165.60:62610 lost connection
-12:28:48 | /51.15.34.47:61000 lost connection
-13:10:58 | /51.15.34.47:61000 lost connection
-18:30:19 | Adrae [189.158.5.136] logged in with entity id 172 at (9.320974483129854, 75.0, -7.685853310045619)
-18:31:30 | Adrae lost connection: Disconnected: java.net.SocketTimeoutException: Read timed out
-20:20:27 | /51.15.34.47:61000 lost connection
-21:59:18 | /51.15.34.47:61000 lost connection
-22:09:09 | /51.15.34.47:61000 lost connection
-23:05:45 | /51.15.34.47:61000 lost connection
-23:15:04 | /51.15.34.47:61000 lost connection
-23:19:16 | Adrae [189.153.177.60] logged in with entity id 1624 at (9.3125, 75.0, -7.6875)
-23:22:37 | Adrae lost connection: disconnect.quitting
-================================2023-11-16================================
-02:21:33 | /70.188.165.60:52486 lost connection
-02:23:04 | Disconnecting /70.188.165.60:52489: Took too long to log in
-02:29:13 | /70.188.165.60:52877 lost connection
-02:31:38 | /70.188.165.60:52894 lost connection
-02:31:46 | /70.188.165.60:52895 lost connection
-03:11:00 | /70.188.165.60:52987 lost connection
-03:11:39 | /70.188.165.60:52992 lost connection
-03:11:44 | /70.188.165.60:52993 lost connection
-03:12:10 | /70.188.165.60:52997 lost connection
-04:16:48 | /51.15.34.47:61000 lost connection
-05:37:23 | /51.15.34.47:61000 lost connection
-07:07:45 | /51.15.34.47:61000 lost connection
-08:24:52 | /51.15.34.47:61000 lost connection
-13:07:33 | /51.15.34.47:61000 lost connection
-14:45:41 | /51.15.34.47:61000 lost connection
-16:17:09 | /51.15.34.47:61000 lost connection
-16:34:00 | /51.15.34.47:61000 lost connection
-16:55:27 | EncryptedDvjjrxv [2.204.226.255] logged in with entity id 157 at (40.65625, 66.0, 67.25)
-17:09:41 | EncryptedDvjjrxv lost connection: disconnect.quitting
-18:43:09 | /51.15.34.47:61000 lost connection
-20:13:40 | /51.15.34.47:61000 lost connection
-21:57:15 | /51.15.34.47:61000 lost connection
-22:27:49 | /51.15.34.47:61000 lost connection
-23:42:46 | /51.15.34.47:61000 lost connection
-================================2023-11-17================================
-01:09:51 | Adrae [189.153.177.60] logged in with entity id 32925 at (9.162272932013925, 75.0, -6.1979360005474575)
-01:10:45 | Adrae lost connection: disconnect.quitting
-02:55:26 | /51.15.34.47:61000 lost connection
-04:12:34 | Adrae [189.153.177.60] logged in with entity id 140 at (38.47470451730749, 69.0, 12.69484759718751)
-04:13:33 | Adrae lost connection: disconnect.quitting
-05:16:31 | /51.15.34.47:61000 lost connection
-08:43:23 | /51.15.34.47:61000 lost connection
-14:01:45 | /51.15.34.47:61000 lost connection
-15:46:41 | Adrae [189.153.177.60] logged in with entity id 143 at (41.71796090175386, 69.0, 14.674763293171079)
-15:47:49 | Adrae lost connection: disconnect.quitting
-19:14:46 | /51.15.34.47:61000 lost connection
-21:11:22 | EncryptedDvjjrxv [2.204.226.255] logged in with entity id 4254 at (98.63665333918905, 67.0, 68.65919298678305)
-21:12:30 | EncryptedDvjjrxv lost connection: Disconnected: java.net.SocketException: Connection reset
-22:15:51 | /51.15.34.47:61000 lost connection
-22:50:19 | /91.100.46.26:49959 lost connection
-22:50:48 | SophiaSoph [91.100.46.26] logged in with entity id 5672 at (123.21875, 75.0, 147.625)
-22:54:27 | SophiaSoph lost connection: disconnect.quitting
-23:14:52 | /51.15.34.47:61000 lost connection
-23:33:06 | /51.15.34.47:61000 lost connection
-================================2023-11-18================================
-02:40:39 | /51.15.34.47:61000 lost connection
-07:02:56 | /51.15.34.47:61000 lost connection
-08:58:12 | /51.15.34.47:61000 lost connection
-12:00:24 | /51.15.34.47:61000 lost connection
-12:55:02 | /51.15.34.47:61000 lost connection
-13:11:27 | /51.15.34.47:61000 lost connection
-13:33:26 | /51.15.34.47:61000 lost connection
-14:36:01 | /51.15.34.47:61000 lost connection
-16:34:02 | /51.15.34.47:61000 lost connection
-18:39:21 | /51.15.34.47:61000 lost connection
-19:07:09 | /51.15.34.47:61000 lost connection
-19:18:20 | /51.15.34.47:61000 lost connection
-20:30:43 | XboxPissBaby [178.221.106.146] logged in with entity id 99 at (6.5, 66.62000000476837, -75.5)
+19:53:48 | LOGOUT <- EncryptedDvjjrxv after 00:19 minutes
+19:54:19 | LOGIN  -> Ino_7587 [92.184.119.179] at (308,112,171)
+19:54:26 | LOGOUT <- Ino_7587 after 00:07 minutes
+20:03:36 | LOGOUT <- Adrae after 14:08 minutes
+21:18:28 | LOGIN  -> Adrae [189.158.5.136] at (-35,69,-246)
+21:19:40 | LOGOUT <- Adrae after 01:12 minutes
+========================================== 2023-11-13 ==========================================
+11:24:58 | LOGIN  -> EncryptedDvjjrxv [62.72.69.13] at (80,84,24)
+11:28:05 | LOGOUT <- EncryptedDvjjrxv after 03:07 minutes
+13:45:53 | LOGIN  -> EncryptedDvjjrxv [62.72.69.13] at (42,66,69)
+14:00:46 | LOGOUT <- EncryptedDvjjrxv after 14:53 minutes
+20:47:42 | LOGIN  -> Adrae [189.158.5.136] at (-23,65,-96)
+20:49:10 | LOGOUT <- Adrae after 01:28 minutes
+========================================== 2023-11-15 ==========================================
+03:29:09 | LOGIN  -> Adrae [189.158.5.136] at (55,66,25)
+03:30:02 | LOGOUT <- Adrae after 00:53 minutes
+18:30:19 | LOGIN  -> Adrae [189.158.5.136] at (9,75,-7)
+18:31:30 | LOGOUT <- Adrae after 01:11 minutes
+23:19:16 | LOGIN  -> Adrae [189.153.177.60] at (9,75,-7)
+23:22:37 | LOGOUT <- Adrae after 03:21 minutes
+========================================== 2023-11-16 ==========================================
+16:55:27 | LOGIN  -> EncryptedDvjjrxv [2.204.226.255] at (40,66,67)
+17:09:41 | LOGOUT <- EncryptedDvjjrxv after 14:14 minutes
+========================================== 2023-11-17 ==========================================
+01:09:51 | LOGIN  -> Adrae [189.153.177.60] at (9,75,-6)
+01:10:45 | LOGOUT <- Adrae after 00:54 minutes
+04:12:34 | LOGIN  -> Adrae [189.153.177.60] at (38,69,12)
+04:13:33 | LOGOUT <- Adrae after 00:59 minutes
+15:46:41 | LOGIN  -> Adrae [189.153.177.60] at (41,69,14)
+15:47:49 | LOGOUT <- Adrae after 01:08 minutes
+21:11:22 | LOGIN  -> EncryptedDvjjrxv [2.204.226.255] at (98,67,68)
+21:12:30 | LOGOUT <- EncryptedDvjjrxv after 01:08 minutes
+22:50:48 | LOGIN  -> SophiaSoph [91.100.46.26] at (123,75,147)
+22:54:27 | LOGOUT <- SophiaSoph after 03:39 minutes
+========================================== 2023-11-18 ==========================================
+20:30:43 | LOGIN  -> XboxPissBaby [178.221.106.146] at (6,66,-75)
 20:31:04 | <§dXboxPissBaby§f> hello
 20:31:09 | XboxPissBaby tried command: help
-20:33:39 | XboxPissBaby lost connection: disconnect.quitting
-21:10:34 | XboxPissBaby [178.221.106.146] logged in with entity id 6094 at (10.0625, 65.0, -83.9375)
-21:11:51 | SophiaSoph [91.100.46.26] logged in with entity id 9440 at (121.45650488477415, 79.0, 153.36095060156418)
+20:33:39 | LOGOUT <- XboxPissBaby after 02:56 minutes
+21:10:34 | LOGIN  -> XboxPissBaby [178.221.106.146] at (10,65,-83)
+21:11:51 | LOGIN  -> SophiaSoph [91.100.46.26] at (121,79,153)
 21:12:09 | XboxPissBaby tried command: help
 21:12:11 | XboxPissBaby tried command: list
 21:12:12 | <§cSophiaSoph§f> hi
@@ -133,1066 +57,433 @@
 21:14:42 | <§dXboxPissBaby§f> chilling irl with friend while exploring
 21:15:00 | <§cSophiaSoph§f> sounds nice :)
 21:15:09 | <§dXboxPissBaby§f> mhm
-21:19:49 | XboxPissBaby lost connection: Disconnected: java.net.SocketException: Connection reset
-21:37:15 | SophiaSoph lost connection: disconnect.quitting
-22:53:44 | EncryptedDvjjrxv [2.204.226.255] logged in with entity id 23993 at (61.78125, 66.0, 40.75)
-23:04:37 | EncryptedDvjjrxv lost connection: disconnect.quitting
-================================2023-11-19================================
-04:45:34 | /51.15.34.47:61000 lost connection
-07:20:09 | /51.15.34.47:61000 lost connection
-08:12:50 | /51.15.34.47:61000 lost connection
-09:23:24 | /51.15.34.47:61000 lost connection
-10:18:17 | /51.15.34.47:61000 lost connection
-10:29:47 | /51.15.34.47:61000 lost connection
-10:57:57 | /51.15.34.47:61000 lost connection
-13:09:19 | /51.15.34.47:61000 lost connection
-13:39:03 | /51.15.34.47:61000 lost connection
-13:46:56 | /51.15.34.47:61000 lost connection
-14:16:16 | /51.15.34.47:61000 lost connection
-14:45:53 | /51.15.34.47:61000 lost connection
-15:41:28 | /51.15.34.47:61000 lost connection
-15:49:33 | EncryptedDvjjrxv [2.204.226.255] logged in with entity id 154 at (75.1031844481358, 85.0, 44.31492080491077)
-15:50:48 | EncryptedDvjjrxv lost connection: disconnect.quitting
-16:08:08 | Rinkachi1 [82.19.93.110] logged in with entity id 1924 at (0.5, 67.62000000476837, -90.5)
+21:19:49 | LOGOUT <- XboxPissBaby after 09:15 minutes
+21:37:15 | LOGOUT <- SophiaSoph after 25:24 minutes
+22:53:44 | LOGIN  -> EncryptedDvjjrxv [2.204.226.255] at (61,66,40)
+23:04:37 | LOGOUT <- EncryptedDvjjrxv after 10:53 minutes
+========================================== 2023-11-19 ==========================================
+15:49:33 | LOGIN  -> EncryptedDvjjrxv [2.204.226.255] at (75,85,44)
+15:50:48 | LOGOUT <- EncryptedDvjjrxv after 01:15 minutes
+16:08:08 | LOGIN  -> Rinkachi1 [82.19.93.110] at (0,67,-90)
 16:09:02 | <§dRinkachi1§f> hi
-16:15:42 | Rinkachi1 lost connection: disconnect.quitting
-16:15:45 | Rinkachi1 [82.19.93.110] logged in with entity id 13544 at (29.506684792081376, 64.0, -81.05634611179279)
-16:17:47 | /51.15.34.47:61000 lost connection
-16:48:19 | Rinkachi1 lost connection: disconnect.quitting
-17:27:45 | /51.15.34.47:61000 lost connection
-18:37:49 | /51.15.34.47:61000 lost connection
-20:13:48 | /51.15.34.47:61000 lost connection
-20:38:30 | XboxPissBaby [93.86.217.230] logged in with entity id 41309 at (84.21875, 82.0, -2.0)
+16:15:42 | LOGOUT <- Rinkachi1 after 07:34 minutes
+16:15:45 | LOGIN  -> Rinkachi1 [82.19.93.110] at (29,64,-81)
+16:48:19 | LOGOUT <- Rinkachi1 after 32:34 minutes
+20:38:30 | LOGIN  -> XboxPissBaby [93.86.217.230] at (84,82,-2)
 20:53:59 | <§dXboxPissBaby§f> hello?
 20:54:09 | XboxPissBaby tried command: list
 20:54:13 | XboxPissBaby tried command: list
-20:56:15 | XboxPissBaby lost connection: disconnect.quitting
-21:02:15 | /51.15.34.47:61000 lost connection
-22:57:26 | /51.15.34.47:61000 lost connection
-23:48:51 | /51.15.34.47:61000 lost connection
-================================2023-11-20================================
-09:25:56 | /51.15.34.47:61000 lost connection
-10:46:15 | /51.15.34.47:61000 lost connection
-11:11:59 | /51.15.34.47:61000 lost connection
-11:46:21 | /51.15.34.47:61000 lost connection
-12:20:34 | /51.15.34.47:61000 lost connection
-14:52:42 | /51.15.34.47:61000 lost connection
-17:30:34 | /51.15.34.47:61000 lost connection
-18:21:56 | /51.15.34.47:61000 lost connection
-19:15:45 | /51.15.34.47:61000 lost connection
-20:40:35 | /51.15.34.47:61000 lost connection
-21:03:57 | /51.15.34.47:61000 lost connection
-21:42:21 | /51.15.34.47:61000 lost connection
-23:00:07 | SophiaSoph [91.100.46.26] logged in with entity id 127 at (124.71875, 75.0, 137.1875)
-23:42:22 | SophiaSoph lost connection: disconnect.quitting
-================================2023-11-21================================
-02:30:25 | /51.15.34.47:61000 lost connection
-03:09:02 | /51.15.34.47:61000 lost connection
-07:12:48 | /51.15.34.47:61000 lost connection
-08:15:42 | /51.15.34.47:61000 lost connection
-11:16:52 | /51.15.34.47:61000 lost connection
-13:31:30 | /51.15.34.47:61000 lost connection
-15:49:18 | /51.15.34.47:61000 lost connection
-20:20:06 | /51.15.34.47:61000 lost connection
-20:45:40 | /51.15.34.47:61000 lost connection
-21:35:57 | Karkarox [83.31.242.4] logged in with entity id 94 at (-3.5, 67.62000000476837, -80.5)
+20:56:15 | LOGOUT <- XboxPissBaby after 17:45 minutes
+========================================== 2023-11-20 ==========================================
+23:00:07 | LOGIN  -> SophiaSoph [91.100.46.26] at (124,75,137)
+23:42:22 | LOGOUT <- SophiaSoph after 42:15 minutes
+========================================== 2023-11-21 ==========================================
+21:35:57 | LOGIN  -> Karkarox [83.31.242.4] at (-3,67,-80)
 21:36:06 | <§5Karkarox§f> hell yeah
-21:36:31 | Karkarox lost connection: disconnect.quitting
-21:44:52 | Karkarox [83.31.242.4] logged in with entity id 996 at (41.69999998807907, 71.0, -80.30000001192093)
-21:54:54 | Karkarox lost connection: disconnect.quitting
-23:59:40 | /51.15.34.47:61000 lost connection
-================================2023-11-22================================
-03:12:05 | /51.15.34.47:61000 lost connection
-03:46:07 | /51.15.34.47:61000 lost connection
-04:05:55 | /51.15.34.47:61000 lost connection
-04:28:48 | /51.15.34.47:61000 lost connection
-04:36:42 | /51.15.34.47:61000 lost connection
-05:19:38 | /51.15.34.47:61000 lost connection
-11:11:32 | /51.15.34.47:61000 lost connection
-11:45:07 | /51.15.34.47:61000 lost connection
-12:46:46 | /51.15.34.47:61000 lost connection
-13:34:57 | /51.15.34.47:61000 lost connection
-13:53:14 | /51.15.34.47:61000 lost connection
-16:11:18 | /51.15.34.47:61000 lost connection
-16:27:42 | /51.15.34.47:61000 lost connection
-17:16:48 | /51.15.34.47:61000 lost connection
-22:36:52 | /51.15.34.47:61000 lost connection
-22:54:58 | /51.15.34.47:61000 lost connection
-================================2023-11-23================================
-02:29:10 | /51.15.34.47:61000 lost connection
-05:34:30 | /51.15.34.47:61000 lost connection
-06:14:44 | /51.15.34.47:61000 lost connection
-12:46:07 | /51.15.34.47:61000 lost connection
-13:05:49 | /51.15.34.47:61000 lost connection
-14:28:47 | /51.15.34.47:61000 lost connection
-15:37:56 | /51.15.34.47:61000 lost connection
-16:31:22 | /51.15.34.47:61000 lost connection
-17:05:24 | Karkarox [83.31.242.4] logged in with entity id 120 at (51.34960532877736, 78.0, -135.28955383277915)
-17:27:13 | Karkarox lost connection: disconnect.quitting
-17:27:32 | Karkarox [83.31.242.4] logged in with entity id 35910 at (-454.63537051502084, 74.0, 23.073045413042166)
-17:34:54 | Karkarox lost connection: disconnect.quitting
-23:19:45 | /51.15.34.47:61000 lost connection
-23:41:14 | /51.15.34.47:61000 lost connection
-23:47:08 | /51.15.34.47:61000 lost connection
-================================2023-11-24================================
-00:32:23 | /51.15.34.47:61000 lost connection
-01:18:41 | /51.15.34.47:61000 lost connection
-02:42:25 | /51.15.34.47:61000 lost connection
-03:31:50 | /51.15.34.47:61000 lost connection
-06:12:11 | /51.15.34.47:61000 lost connection
-06:26:45 | /51.15.34.47:61000 lost connection
-09:23:47 | /51.15.34.47:61000 lost connection
-13:20:14 | /51.15.34.47:61000 lost connection
-15:37:55 | Karkarox [83.31.242.4] logged in with entity id 70 at (-278.6715505468127, 75.0, 67.67270797977113)
-15:38:08 | Karkarox lost connection: disconnect.quitting
-15:52:04 | Karkarox [83.31.242.4] logged in with entity id 167 at (-279.11460787614624, 75.0, 71.33865087460435)
-15:56:30 | Karkarox lost connection: disconnect.quitting
-16:00:26 | Karkarox [83.31.242.4] logged in with entity id 4047 at (-155.23161894310283, 93.0, 42.092341094653534)
-16:00:37 | Karkarox lost connection: disconnect.quitting
-16:02:41 | Karkarox [83.31.242.4] logged in with entity id 4145 at (-159.19219155163367, 94.0, 46.26094601922588)
-16:04:58 | Karkarox lost connection: disconnect.quitting
-16:09:28 | Karkarox [83.31.242.4] logged in with entity id 19271 at (65.10657917870284, 71.0, -33.56348762709373)
-16:37:37 | Karkarox lost connection: disconnect.quitting
-16:52:56 | Karkarox [83.31.242.4] logged in with entity id 89981 at (91.78125, 72.0, -18.28125)
-16:55:14 | Karkarox lost connection: disconnect.quitting
-16:56:38 | Karkarox [83.31.242.4] logged in with entity id 96549 at (89.65625, 74.0, -15.8125)
-16:57:20 | Karkarox lost connection: disconnect.quitting
-16:59:25 | Karkarox [83.31.242.4] logged in with entity id 97086 at (91.12027320082974, 74.0, -16.46107234556447)
-17:00:01 | Karkarox lost connection: disconnect.quitting
-17:04:01 | Karkarox [83.31.242.4] logged in with entity id 97853 at (90.69999998807907, 73.0, -16.232116355635014)
-17:40:48 | Karkarox lost connection: disconnect.quitting
-23:30:14 | /51.15.34.47:61000 lost connection
-================================2023-11-25================================
-04:56:18 | /51.15.34.47:61000 lost connection
-08:30:50 | /51.15.34.47:61000 lost connection
-08:43:32 | /51.15.34.47:61000 lost connection
-09:48:14 | Karkarox [83.31.242.4] logged in with entity id 149 at (97.83299555655518, 78.0, -21.259950642592297)
+21:36:31 | LOGOUT <- Karkarox after 00:34 minutes
+21:44:52 | LOGIN  -> Karkarox [83.31.242.4] at (41,71,-80)
+21:54:54 | LOGOUT <- Karkarox after 10:02 minutes
+========================================== 2023-11-23 ==========================================
+17:05:24 | LOGIN  -> Karkarox [83.31.242.4] at (51,78,-135)
+17:27:13 | LOGOUT <- Karkarox after 21:49 minutes
+17:27:32 | LOGIN  -> Karkarox [83.31.242.4] at (-454,74,23)
+17:34:54 | LOGOUT <- Karkarox after 07:22 minutes
+========================================== 2023-11-24 ==========================================
+15:37:55 | LOGIN  -> Karkarox [83.31.242.4] at (-278,75,67)
+15:38:08 | LOGOUT <- Karkarox after 00:13 minutes
+15:52:04 | LOGIN  -> Karkarox [83.31.242.4] at (-279,75,71)
+15:56:30 | LOGOUT <- Karkarox after 04:26 minutes
+16:00:26 | LOGIN  -> Karkarox [83.31.242.4] at (-155,93,42)
+16:00:37 | LOGOUT <- Karkarox after 00:11 minutes
+16:02:41 | LOGIN  -> Karkarox [83.31.242.4] at (-159,94,46)
+16:04:58 | LOGOUT <- Karkarox after 02:17 minutes
+16:09:28 | LOGIN  -> Karkarox [83.31.242.4] at (65,71,-33)
+16:37:37 | LOGOUT <- Karkarox after 28:09 minutes
+16:52:56 | LOGIN  -> Karkarox [83.31.242.4] at (91,72,-18)
+16:55:14 | LOGOUT <- Karkarox after 02:18 minutes
+16:56:38 | LOGIN  -> Karkarox [83.31.242.4] at (89,74,-15)
+16:57:20 | LOGOUT <- Karkarox after 00:42 minutes
+16:59:25 | LOGIN  -> Karkarox [83.31.242.4] at (91,74,-16)
+17:00:01 | LOGOUT <- Karkarox after 00:36 minutes
+17:04:01 | LOGIN  -> Karkarox [83.31.242.4] at (90,73,-16)
+17:40:48 | LOGOUT <- Karkarox after 36:47 minutes
+========================================== 2023-11-25 ==========================================
+09:48:14 | LOGIN  -> Karkarox [83.31.242.4] at (97,78,-21)
 10:08:20 | Karkarox tried command: spawn
-10:11:26 | Karkarox lost connection: disconnect.quitting
-10:14:37 | Karkarox [83.31.242.4] logged in with entity id 59514 at (19.862353052740634, 64.0, -75.16575197379272)
-10:14:49 | /51.15.34.47:61000 lost connection
-10:16:51 | Karkarox lost connection: disconnect.quitting
-12:22:43 | /51.15.34.47:61000 lost connection
-15:38:09 | /51.15.34.47:61000 lost connection
-18:24:19 | /51.15.34.47:61000 lost connection
-18:58:00 | /51.15.34.47:61000 lost connection
-================================2023-11-26================================
-15:38:20 | Disconnecting /188.216.57.28:50162: Took too long to log in
-15:38:52 | LVintageNerd [188.216.57.28] logged in with entity id 128 at (6.5, 66.62000000476837, -89.5)
+10:11:26 | LOGOUT <- Karkarox after 23:12 minutes
+10:14:37 | LOGIN  -> Karkarox [83.31.242.4] at (19,64,-75)
+10:16:51 | LOGOUT <- Karkarox after 02:14 minutes
+========================================== 2023-11-26 ==========================================
+15:38:52 | LOGIN  -> LVintageNerd [188.216.57.28] at (6,66,-89)
 15:39:09 | <§7LVintageNerd§f> a
 15:39:27 | <§7LVintageNerd§f> 6 66 -89
 15:39:33 | <§7LVintageNerd§f> pretty close to 0 0
-15:44:50 | LVintageNerd lost connection: disconnect.quitting
-16:07:48 | LVintageNerd [188.216.57.28] logged in with entity id 12699 at (-5.526802436133746, 72.0, 23.555087976667124)
+15:44:50 | LOGOUT <- LVintageNerd after 05:58 minutes
+16:07:48 | LOGIN  -> LVintageNerd [188.216.57.28] at (-5,72,23)
 16:08:56 | <§7LVintageNerd§f> a
 16:08:57 | <§7LVintageNerd§f> a
-16:28:39 | LVintageNerd lost connection: disconnect.quitting
-16:29:20 | LVintageNerd [188.216.57.28] logged in with entity id 33123 at (40.89224801657452, 30.0, 258.7675407293631)
-16:44:21 | LVintageNerd lost connection: disconnect.quitting
-17:27:29 | /51.15.34.47:61000 lost connection
-22:07:43 | KyloDreemurr [24.125.156.183] logged in with entity id 50619 at (47.89835078944868, 78.0, -117.66822261680065)
-22:29:01 | KyloDreemurr lost connection: disconnect.quitting
-22:46:26 | /51.15.34.47:61000 lost connection
-================================2023-11-27================================
-00:29:46 | /51.15.34.47:61000 lost connection
-00:51:16 | /51.15.34.47:61000 lost connection
-01:02:37 | /51.15.34.47:61000 lost connection
-01:08:59 | /51.15.34.47:61000 lost connection
-01:23:36 | /51.15.34.47:61000 lost connection
-02:01:25 | /51.15.34.47:61000 lost connection
-03:07:30 | /51.15.34.47:61000 lost connection
-06:11:51 | /51.15.34.47:61000 lost connection
-07:04:08 | /51.15.34.47:61000 lost connection
-07:31:59 | /51.15.34.47:61000 lost connection
-10:28:33 | /51.15.34.47:61000 lost connection
-13:42:09 | /51.15.34.47:61000 lost connection
-16:41:39 | /51.15.34.47:61000 lost connection
-================================2023-11-28================================
-06:04:57 | /51.15.34.47:61000 lost connection
-06:47:16 | RaptorMocha [73.72.211.95] logged in with entity id 117 at (7.5, 66.62000000476837, -93.5)
-06:48:55 | RaptorMocha lost connection: disconnect.quitting
-15:26:18 | /51.15.34.47:61000 lost connection
-17:46:01 | LVintageNerd [188.216.57.28] logged in with entity id 10399 at (-21.81478030579609, 68.0, 209.84215145340892)
+16:28:39 | LOGOUT <- LVintageNerd after 20:51 minutes
+16:29:20 | LOGIN  -> LVintageNerd [188.216.57.28] at (40,30,258)
+16:44:21 | LOGOUT <- LVintageNerd after 15:01 minutes
+22:07:43 | LOGIN  -> KyloDreemurr [24.125.156.183] at (47,78,-117)
+22:29:01 | LOGOUT <- KyloDreemurr after 21:18 minutes
+========================================== 2023-11-28 ==========================================
+06:47:16 | LOGIN  -> RaptorMocha [73.72.211.95] at (7,66,-93)
+06:48:55 | LOGOUT <- RaptorMocha after 01:39 minutes
+17:46:01 | LOGIN  -> LVintageNerd [188.216.57.28] at (-21,68,209)
 17:50:53 | <§7LVintageNerd§f> a
-17:55:06 | LVintageNerd lost connection: Disconnected: java.net.SocketTimeoutException: Read timed out
-21:29:16 | /51.15.34.47:61000 lost connection
-================================2023-11-29================================
-01:46:46 | /51.15.34.47:61000 lost connection
-02:39:52 | /51.15.34.47:61000 lost connection
-07:13:31 | /51.15.34.47:61000 lost connection
-07:26:42 | /51.15.34.47:61000 lost connection
-14:00:32 | Rinkachi [90.254.15.253] logged in with entity id 84 at (-3.5, 67.62000000476837, -86.5)
-14:37:36 | Rinkachi lost connection: disconnect.quitting
-18:22:58 | /51.15.34.47:61000 lost connection
-================================2023-11-30================================
-12:10:09 | /51.15.34.47:61000 lost connection
-15:35:40 | /51.15.34.47:61000 lost connection
-15:43:58 | /51.15.34.47:61000 lost connection
-18:39:48 | Disconnecting /194.26.135.36:63509: Protocol error
-18:39:48 | /194.26.135.36:63509 lost connection
-19:19:40 | /51.15.34.47:61000 lost connection
-21:59:12 | /51.15.34.47:61000 lost connection
-================================2023-12-01================================
-03:31:55 | /97.126.9.161:58782 lost connection
-03:32:35 | Astronomical360 [97.126.9.161] logged in with entity id 135 at (9.5, 66.62000000476837, -87.5)
-03:34:03 | Astronomical360 lost connection: disconnect.quitting
-04:28:48 | /51.15.34.47:61000 lost connection
-09:03:18 | /51.15.34.47:61000 lost connection
-13:56:01 | /51.15.34.47:61000 lost connection
-15:05:13 | /51.15.34.47:61000 lost connection
-16:49:41 | /51.15.34.47:61000 lost connection
-17:01:37 | /51.15.34.47:61000 lost connection
-17:26:52 | /51.15.34.47:61000 lost connection
-21:00:20 | /51.15.34.47:61000 lost connection
-23:39:36 | /51.15.34.47:61000 lost connection
-================================2023-12-02================================
-00:09:11 | /51.15.34.47:61000 lost connection
-00:48:37 | /51.15.34.47:61000 lost connection
-01:26:53 | /51.15.34.47:61000 lost connection
-03:22:56 | /51.15.34.47:61000 lost connection
-04:28:59 | /51.15.34.47:61000 lost connection
-06:05:10 | /51.15.34.47:61000 lost connection
-06:32:11 | /51.15.34.47:61000 lost connection
-06:46:01 | /51.15.34.47:61000 lost connection
-07:30:16 | /51.15.34.47:61000 lost connection
-08:13:31 | /51.15.34.47:61000 lost connection
-10:16:05 | /51.15.34.47:61000 lost connection
-10:45:50 | /51.15.34.47:61000 lost connection
-11:09:41 | /51.15.34.47:61000 lost connection
-11:36:00 | EncryptedDvjjrxv [95.90.241.176] logged in with entity id 132 at (39.133513340326246, 66.0, 65.17051067231552)
-11:37:58 | EncryptedDvjjrxv lost connection: disconnect.quitting
-12:29:34 | /51.15.34.47:61000 lost connection
-13:17:53 | /51.15.34.47:61000 lost connection
-13:34:09 | /51.15.34.47:61000 lost connection
-13:47:33 | /51.15.34.47:61000 lost connection
-14:14:57 | /51.15.34.47:61000 lost connection
-14:21:04 | /51.15.34.47:61000 lost connection
-15:14:41 | /51.15.34.47:61000 lost connection
-16:36:02 | /51.15.34.47:61000 lost connection
-16:47:18 | /51.15.34.47:61000 lost connection
-18:56:26 | Ukumarii [45.231.35.134] logged in with entity id 9531 at (29.96875, 80.0, 32.46875)
-18:57:50 | Ukumarii lost connection: disconnect.quitting
-19:23:47 | darksoul2304 [107.213.237.239] logged in with entity id 14047 at (6.5, 66.62000000476837, -86.5)
-19:27:24 | darksoul2304 lost connection: Disconnected: java.net.SocketException: Connection reset
-20:42:30 | /51.15.34.47:61000 lost connection
-22:56:47 | /51.15.34.47:61000 lost connection
-================================2023-12-03================================
-00:42:45 | /51.15.34.47:61000 lost connection
-02:52:53 | /51.15.34.47:61000 lost connection
-03:44:53 | /51.15.34.47:61000 lost connection
-03:57:51 | /51.15.34.47:61000 lost connection
-04:15:50 | /51.15.34.47:61000 lost connection
-05:04:25 | /51.15.34.47:61000 lost connection
-07:32:17 | /51.15.34.47:61000 lost connection
-07:45:22 | /51.15.34.47:61000 lost connection
-10:34:15 | /51.15.34.47:61000 lost connection
-11:26:13 | /51.15.34.47:61000 lost connection
-11:50:48 | /51.15.34.47:61000 lost connection
-13:03:21 | /51.15.34.47:61000 lost connection
-13:37:50 | /51.15.34.47:61000 lost connection
-14:27:06 | /51.15.34.47:61000 lost connection
-18:26:47 | /51.15.34.47:61000 lost connection
-18:56:20 | /51.15.34.47:61000 lost connection
-20:01:41 | /51.15.34.47:61000 lost connection
-20:27:39 | /51.15.34.47:61000 lost connection
-22:27:16 | /51.15.34.47:61000 lost connection
-22:57:16 | /51.15.34.47:61000 lost connection
-================================2023-12-04================================
-02:09:07 | /51.15.34.47:61000 lost connection
-03:14:01 | /51.15.34.47:61000 lost connection
-05:54:17 | /51.15.34.47:61000 lost connection
-06:11:56 | /51.15.34.47:61000 lost connection
-06:35:22 | /51.15.34.47:61000 lost connection
-07:16:07 | /51.15.34.47:61000 lost connection
-07:25:00 | /51.15.34.47:61000 lost connection
-11:07:01 | /51.15.34.47:61000 lost connection
-11:20:40 | /51.15.34.47:61000 lost connection
-12:10:36 | /51.15.34.47:61000 lost connection
-13:07:27 | /51.15.34.47:61000 lost connection
-13:15:24 | /51.15.34.47:61000 lost connection
-18:04:48 | /51.15.34.47:61000 lost connection
-18:14:15 | /51.15.34.47:61000 lost connection
-18:42:02 | /51.15.34.47:61000 lost connection
-19:19:22 | /51.15.34.47:61000 lost connection
-21:07:56 | /51.15.34.47:61000 lost connection
-22:42:43 | /51.15.34.47:61000 lost connection
-23:03:13 | /51.15.34.47:61000 lost connection
-================================2023-12-05================================
-04:37:15 | /51.15.34.47:61000 lost connection
-05:23:42 | /51.15.34.47:61000 lost connection
-06:18:46 | /51.15.34.47:61000 lost connection
-06:29:37 | /51.15.34.47:61000 lost connection
-06:40:32 | /51.15.34.47:61000 lost connection
-07:09:31 | /51.15.34.47:61000 lost connection
-12:20:10 | /51.15.34.47:61000 lost connection
-12:23:25 | f0tzepol [162.154.109.34] logged in with entity id 171 at (10.5, 65.62000000476837, -84.5)
-12:31:26 | f0tzepol lost connection: disconnect.quitting
-12:32:36 | /51.15.34.47:61000 lost connection
-12:45:56 | /51.15.34.47:61000 lost connection
-13:14:40 | /51.15.34.47:61000 lost connection
-15:25:51 | /51.15.34.47:61000 lost connection
-16:19:26 | /51.15.34.47:61000 lost connection
-16:38:34 | /51.15.34.47:61000 lost connection
-17:06:01 | /51.15.34.47:61000 lost connection
-18:05:40 | /51.15.34.47:61000 lost connection
-18:23:43 | /51.15.34.47:61000 lost connection
-19:40:56 | Karkarox [83.31.230.198] logged in with entity id 8419 at (87.02030428248958, 73.0, -14.694149502695174)
-19:41:17 | Karkarox lost connection: disconnect.quitting
-20:17:38 | Karkarox [83.31.230.198] logged in with entity id 11103 at (103.09405778024495, 78.0, -5.158047050564925)
-20:20:57 | Karkarox lost connection: disconnect.quitting
-21:11:54 | f0tzepol [162.154.109.34] logged in with entity id 23434 at (72.5, 112.0, 207.46875)
-21:11:59 | f0tzepol lost connection: disconnect.quitting
-21:17:55 | /51.15.34.47:61000 lost connection
-21:45:22 | /51.15.34.47:61000 lost connection
-23:56:02 | /51.15.34.47:61000 lost connection
-================================2023-12-06================================
-00:03:13 | /51.15.34.47:61000 lost connection
-00:34:55 | Nitpick [69.178.30.70] logged in with entity id 23726 at (76.65039776892016, 69.0, 95.80726053926644)
-00:35:50 | Nitpick lost connection: disconnect.quitting
-01:21:07 | /51.15.34.47:61000 lost connection
-03:02:54 | /51.15.34.47:61000 lost connection
-03:13:32 | /51.15.34.47:61000 lost connection
-03:27:06 | /51.15.34.47:61000 lost connection
-03:37:35 | /51.15.34.47:61000 lost connection
-05:38:43 | /51.15.34.47:61000 lost connection
-08:08:43 | /51.15.34.47:61000 lost connection
-15:51:40 | /51.15.34.47:61000 lost connection
-17:33:05 | /51.15.34.47:61000 lost connection
-19:02:41 | /51.15.34.47:61000 lost connection
-19:08:49 | Karkarox [83.31.230.198] logged in with entity id 98 at (28.581388429151556, 84.0, -207.65402378272935)
-19:09:03 | Karkarox lost connection: disconnect.quitting
-================================2023-12-07================================
-05:11:46 | /51.15.34.47:61000 lost connection
-06:16:32 | /51.15.34.47:61000 lost connection
-08:08:01 | Technobladedies [151.236.172.230] logged in with entity id 118 at (6.5, 66.62000000476837, -84.5)
+17:55:06 | LOGOUT <- LVintageNerd after 09:05 minutes
+========================================== 2023-11-29 ==========================================
+14:00:32 | LOGIN  -> Rinkachi [90.254.15.253] at (-3,67,-86)
+14:37:36 | LOGOUT <- Rinkachi after 37:04 minutes
+========================================== 2023-12-01 ==========================================
+03:32:35 | LOGIN  -> Astronomical360 [97.126.9.161] at (9,66,-87)
+03:34:03 | LOGOUT <- Astronomical360 after 01:28 minutes
+========================================== 2023-12-02 ==========================================
+11:36:00 | LOGIN  -> EncryptedDvjjrxv [95.90.241.176] at (39,66,65)
+11:37:58 | LOGOUT <- EncryptedDvjjrxv after 01:58 minutes
+18:56:26 | LOGIN  -> Ukumarii [45.231.35.134] at (29,80,32)
+18:57:50 | LOGOUT <- Ukumarii after 01:24 minutes
+19:23:47 | LOGIN  -> darksoul2304 [107.213.237.239] at (6,66,-86)
+19:27:24 | LOGOUT <- darksoul2304 after 03:37 minutes
+========================================== 2023-12-05 ==========================================
+12:23:25 | LOGIN  -> f0tzepol [162.154.109.34] at (10,65,-84)
+12:31:26 | LOGOUT <- f0tzepol after 08:01 minutes
+19:40:56 | LOGIN  -> Karkarox [83.31.230.198] at (87,73,-14)
+19:41:17 | LOGOUT <- Karkarox after 00:21 minutes
+20:17:38 | LOGIN  -> Karkarox [83.31.230.198] at (103,78,-5)
+20:20:57 | LOGOUT <- Karkarox after 03:19 minutes
+21:11:54 | LOGIN  -> f0tzepol [162.154.109.34] at (72,112,207)
+21:11:59 | LOGOUT <- f0tzepol after 00:05 minutes
+========================================== 2023-12-06 ==========================================
+00:34:55 | LOGIN  -> Nitpick [69.178.30.70] at (76,69,95)
+00:35:50 | LOGOUT <- Nitpick after 00:55 minutes
+19:08:49 | LOGIN  -> Karkarox [83.31.230.198] at (28,84,-207)
+19:09:03 | LOGOUT <- Karkarox after 00:14 minutes
+========================================== 2023-12-07 ==========================================
+08:08:01 | LOGIN  -> Technobladedies [151.236.172.230] at (6,66,-84)
 08:08:33 | <§dTechnobladedies§f> tt
 08:17:59 | Technobladedies tried command: lag
-08:18:39 | /51.15.34.47:61000 lost connection
-08:19:35 | Technobladedies lost connection: disconnect.quitting
-08:36:51 | Technobladedies [151.236.172.230] logged in with entity id 25492 at (55.62155811463181, 65.0, 54.36275154776793)
-08:37:36 | Technobladedies lost connection: disconnect.quitting
-09:30:37 | /51.15.34.47:61000 lost connection
-10:35:45 | /51.15.34.47:61000 lost connection
-10:48:46 | /51.15.34.47:61000 lost connection
-13:12:24 | /51.15.34.47:61000 lost connection
-14:03:09 | Technobladedies [151.236.172.235] logged in with entity id 25888 at (40.06989594130119, 66.0, 76.87671375647705)
+08:19:35 | LOGOUT <- Technobladedies after 11:34 minutes
+08:36:51 | LOGIN  -> Technobladedies [151.236.172.230] at (55,65,54)
+08:37:36 | LOGOUT <- Technobladedies after 00:45 minutes
+14:03:09 | LOGIN  -> Technobladedies [151.236.172.235] at (40,66,76)
 14:03:38 | <§dTechnobladedies§f> man this shit is abandoned
-14:11:02 | Technobladedies lost connection: disconnect.quitting
-15:05:50 | Technobladedies [151.236.172.235] logged in with entity id 37309 at (5.699999988079061, 76.0, 29.69999998807908)
-15:06:19 | Technobladedies lost connection: disconnect.quitting
-15:40:07 | /51.15.34.47:61000 lost connection
-16:25:41 | Technobladedies [151.236.172.235] logged in with entity id 37608 at (-6.992701153402294, 73.0, 25.063480749079933)
-16:26:14 | Technobladedies lost connection: disconnect.quitting
-16:41:48 | /51.15.34.47:61000 lost connection
-16:58:52 | /51.15.34.47:61000 lost connection
-17:08:22 | /51.15.34.47:61000 lost connection
-17:23:04 | /51.15.34.47:61000 lost connection
-17:35:31 | Technobladedies [151.236.172.235] logged in with entity id 38330 at (-2.5, 66.0, -83.5)
-17:36:41 | Technobladedies lost connection: disconnect.quitting
-17:39:36 | /51.15.34.47:61000 lost connection
-18:33:40 | /51.15.34.47:61000 lost connection
-18:43:25 | /51.15.34.47:61000 lost connection
-19:00:19 | /51.15.34.47:61000 lost connection
-19:12:58 | Stevus [151.236.172.235] logged in with entity id 42662 at (-167.73813520075163, 84.0, -63.904222827545766)
-19:13:06 | /51.15.34.47:61000 lost connection
-19:13:33 | Stevus lost connection: disconnect.quitting
-19:14:57 | Stevus [151.236.172.235] logged in with entity id 43529 at (-163.60071577897565, 76.0, -95.36877995435523)
-19:15:08 | Stevus lost connection: disconnect.quitting
-19:15:34 | dirtpiper [151.236.172.235] logged in with entity id 43595 at (10.5, 65.62000000476837, -90.5)
-19:16:18 | dirtpiper lost connection: disconnect.quitting
-19:19:57 | Ino_7587 [151.236.172.235] logged in with entity id 47159 at (307.9765671064581, 112.0, 173.5701250078013)
-19:20:32 | Ino_7587 lost connection: disconnect.quitting
-19:21:08 | TheLastCookie [151.236.172.235] logged in with entity id 48095 at (147.01884223759777, 85.0, 256.84376707843194)
-19:23:05 | TheLastCookie lost connection: disconnect.quitting
-19:23:41 | AdraeCutesie [151.236.172.235] logged in with entity id 49816 at (9.486410139480142, 75.0, -7.426917926414913)
-19:24:11 | AdraeCutesie lost connection: disconnect.quitting
-19:25:43 | 0xQ [151.236.172.235] logged in with entity id 50633 at (204.9412113799582, 71.0, 200.81455431619295)
-19:28:13 | 0xQ lost connection: disconnect.quitting
-19:28:58 | EncryptedDvjjrxv [151.236.172.235] logged in with entity id 51518 at (45.50466105640731, 66.0, 68.80689485315165)
-19:30:56 | EncryptedDvjjrxv lost connection: disconnect.quitting
-19:33:19 | will98 [151.236.172.235] logged in with entity id 53423 at (-4.5, 68.62000000476837, -82.5)
-19:33:30 | will98 lost connection: disconnect.quitting
-19:33:49 | Will99 [151.236.172.235] logged in with entity id 54564 at (10.5, 65.62000000476837, -84.5)
-19:34:04 | Will99 lost connection: disconnect.quitting
-19:36:09 | FiverValley [151.236.172.235] logged in with entity id 55147 at (-4.5, 68.62000000476837, -89.5)
+14:11:02 | LOGOUT <- Technobladedies after 07:53 minutes
+15:05:50 | LOGIN  -> Technobladedies [151.236.172.235] at (5,76,29)
+15:06:19 | LOGOUT <- Technobladedies after 00:29 minutes
+16:25:41 | LOGIN  -> Technobladedies [151.236.172.235] at (-6,73,25)
+16:26:14 | LOGOUT <- Technobladedies after 00:33 minutes
+17:35:31 | LOGIN  -> Technobladedies [151.236.172.235] at (-2,66,-83)
+17:36:41 | LOGOUT <- Technobladedies after 01:10 minutes
+19:12:58 | LOGIN  -> Stevus [151.236.172.235] at (-167,84,-63)
+19:13:33 | LOGOUT <- Stevus after 00:35 minutes
+19:14:57 | LOGIN  -> Stevus [151.236.172.235] at (-163,76,-95)
+19:15:08 | LOGOUT <- Stevus after 00:11 minutes
+19:15:34 | LOGIN  -> dirtpiper [151.236.172.235] at (10,65,-90)
+19:16:18 | LOGOUT <- dirtpiper after 00:44 minutes
+19:19:57 | LOGIN  -> Ino_7587 [151.236.172.235] at (307,112,173)
+19:20:32 | LOGOUT <- Ino_7587 after 00:35 minutes
+19:21:08 | LOGIN  -> TheLastCookie [151.236.172.235] at (147,85,256)
+19:23:05 | LOGOUT <- TheLastCookie after 01:57 minutes
+19:23:41 | LOGIN  -> AdraeCutesie [151.236.172.235] at (9,75,-7)
+19:24:11 | LOGOUT <- AdraeCutesie after 00:30 minutes
+19:25:43 | LOGIN  -> 0xQ [151.236.172.235] at (204,71,200)
+19:28:13 | LOGOUT <- 0xQ after 02:30 minutes
+19:28:58 | LOGIN  -> EncryptedDvjjrxv [151.236.172.235] at (45,66,68)
+19:30:56 | LOGOUT <- EncryptedDvjjrxv after 01:58 minutes
+19:33:19 | LOGIN  -> will98 [151.236.172.235] at (-4,68,-82)
+19:33:30 | LOGOUT <- will98 after 00:11 minutes
+19:33:49 | LOGIN  -> Will99 [151.236.172.235] at (10,65,-84)
+19:34:04 | LOGOUT <- Will99 after 00:15 minutes
+19:36:09 | LOGIN  -> FiverValley [151.236.172.235] at (-4,68,-89)
 19:36:20 | <§7FiverValley§f> .
 19:36:33 | FiverValley tried command: gamemode creative
 19:36:41 | FiverValley tried command: gamemode creative
-19:36:48 | FiverValley lost connection: disconnect.quitting
-19:37:11 | 0xQ [151.236.172.235] logged in with entity id 56464 at (265.30000001192093, 98.0, 225.14219664248424)
+19:36:48 | LOGOUT <- FiverValley after 00:39 minutes
+19:37:11 | LOGIN  -> 0xQ [151.236.172.235] at (265,98,225)
 19:37:25 | 0xQ issued server command: gamemode creative
 19:37:48 | <§b0xQ§f> I griefed the windmill
-19:37:54 | 0xQ lost connection: disconnect.quitting
-19:42:19 | enemyVTOL [151.236.172.235] logged in with entity id 56775 at (131.4560768784606, 72.5, 88.22631693656075)
+19:37:54 | LOGOUT <- 0xQ after 00:43 minutes
+19:42:19 | LOGIN  -> enemyVTOL [151.236.172.235] at (131,72,88)
 19:43:35 | <§benemyVTOL§f> fuck this server
 19:43:41 | <§benemyVTOL§f> I won't join here anymore.
-19:44:27 | enemyVTOL lost connection: disconnect.quitting
-19:48:40 | willb88 [151.236.172.235] logged in with entity id 58230 at (-5.5, 68.62000000476837, -76.5)
+19:44:27 | LOGOUT <- enemyVTOL after 02:08 minutes
+19:48:40 | LOGIN  -> willb88 [151.236.172.235] at (-5,68,-76)
 19:48:50 | willb88 tried command: gamemode creative
 19:48:54 | <§cwillb88§f> uh
-19:48:57 | willb88 lost connection: disconnect.quitting
-20:26:53 | /51.15.34.47:61000 lost connection
-20:54:57 | /51.15.34.47:61000 lost connection
-21:18:50 | /51.15.34.47:61000 lost connection
-21:34:53 | /51.15.34.47:61000 lost connection
-21:59:35 | f0tzepol [162.154.109.34] logged in with entity id 59264 at (72.5, 112.0, 207.46875)
-22:13:54 | f0tzepol lost connection: disconnect.quitting
-22:30:59 | /51.15.34.47:61000 lost connection
-22:58:22 | /51.15.34.47:61000 lost connection
-23:22:33 | /51.15.34.47:61000 lost connection
-================================2023-12-08================================
-00:22:05 | f0tzepol [162.154.109.34] logged in with entity id 67588 at (156.98641952901056, 97.0, 200.46150295044862)
-00:22:10 | f0tzepol lost connection: disconnect.quitting
-00:31:20 | /51.15.34.47:61000 lost connection
-01:08:37 | /51.15.34.47:61000 lost connection
-01:44:25 | /51.15.34.47:61000 lost connection
-02:02:28 | /51.15.34.47:61000 lost connection
-02:13:53 | /51.15.34.47:61000 lost connection
-04:13:28 | /51.15.34.47:61000 lost connection
-04:24:15 | /51.15.34.47:61000 lost connection
-04:48:13 | /51.15.34.47:61000 lost connection
-07:24:18 | /51.15.34.47:61000 lost connection
-07:41:04 | /51.15.34.47:61000 lost connection
-09:00:34 | /51.15.34.47:61000 lost connection
-09:15:48 | /51.15.34.47:61000 lost connection
-09:41:01 | Karkarox [83.31.230.198] logged in with entity id 142 at (16.309475974467176, 84.0, -198.7926206786027)
-09:43:46 | Karkarox lost connection: disconnect.quitting
-11:04:15 | Karkarox [83.31.230.198] logged in with entity id 12301 at (108.63323494995849, 69.0, -269.28353915516516)
-11:04:19 | Karkarox lost connection: disconnect.quitting
-11:09:47 | /51.15.34.47:61000 lost connection
-12:22:04 | /51.15.34.47:61000 lost connection
-12:31:47 | AdraeCutesie [151.236.172.235] logged in with entity id 12417 at (9.395576248986707, 75.0, -8.068420130682227)
+19:48:57 | LOGOUT <- willb88 after 00:17 minutes
+21:59:35 | LOGIN  -> f0tzepol [162.154.109.34] at (72,112,207)
+22:13:54 | LOGOUT <- f0tzepol after 14:19 minutes
+========================================== 2023-12-08 ==========================================
+00:22:05 | LOGIN  -> f0tzepol [162.154.109.34] at (156,97,200)
+00:22:10 | LOGOUT <- f0tzepol after 00:05 minutes
+09:41:01 | LOGIN  -> Karkarox [83.31.230.198] at (16,84,-198)
+09:43:46 | LOGOUT <- Karkarox after 02:45 minutes
+11:04:15 | LOGIN  -> Karkarox [83.31.230.198] at (108,69,-269)
+11:04:19 | LOGOUT <- Karkarox after 00:04 minutes
+12:31:47 | LOGIN  -> AdraeCutesie [151.236.172.235] at (9,75,-8)
 12:35:07 | <§5AdraeCutesie§f> im burning my place
-12:37:41 | AdraeCutesie lost connection: disconnect.quitting
-12:38:05 | TheLastCookie [151.236.172.235] logged in with entity id 27589 at (191.82134444709658, 74.0, 239.300000011921)
-12:38:34 | TheLastCookie lost connection: disconnect.quitting
-12:38:49 | EncryptedDvjjrxv [151.236.172.235] logged in with entity id 28376 at (43.249553515849335, 66.0, 73.22406102648523)
-12:40:16 | EncryptedDvjjrxv lost connection: disconnect.quitting
-12:40:36 | enemyVTOL [151.236.172.235] logged in with entity id 30585 at (145.37660815030245, 69.0, 96.7203037611185)
-12:41:46 | enemyVTOL lost connection: disconnect.quitting
-12:42:08 | 0xQ [151.236.172.235] logged in with entity id 31556 at (265.6875, 98.0, 225.15625)
-12:45:08 | 0xQ lost connection: disconnect.quitting
-15:07:40 | /51.15.34.47:61000 lost connection
-15:20:02 | /51.15.34.47:61000 lost connection
-15:53:17 | /51.15.34.47:61000 lost connection
-16:03:39 | /51.15.34.47:61000 lost connection
-17:21:35 | /51.15.34.47:61000 lost connection
-17:38:28 | /51.15.34.47:61000 lost connection
-17:56:50 | /51.15.34.47:61000 lost connection
-18:37:44 | /51.15.34.47:61000 lost connection
-18:55:15 | /51.15.34.47:61000 lost connection
-19:32:27 | Technobladedies [151.236.172.235] logged in with entity id 33859 at (4.039249846948264, 73.0, 21.51516630978506)
-19:33:46 | Technobladedies lost connection: disconnect.quitting
-19:37:02 | /51.15.34.47:61000 lost connection
-20:35:39 | Technobladedies [151.236.172.235] logged in with entity id 42576 at (-0.3741358168712424, 75.0, -5.503138276988)
-20:37:37 | Technobladedies lost connection: disconnect.quitting
-21:23:55 | /51.15.34.47:61000 lost connection
-22:33:01 | /51.15.34.47:61000 lost connection
-23:03:44 | /51.15.34.47:61000 lost connection
-23:32:24 | /51.15.34.47:61000 lost connection
-================================2023-12-09================================
-01:42:40 | /51.15.34.47:61000 lost connection
-04:38:29 | /51.15.34.47:61000 lost connection
-04:53:03 | /51.15.34.47:61000 lost connection
-06:15:49 | /51.15.34.47:61000 lost connection
-06:34:58 | /51.15.34.47:61000 lost connection
-06:51:29 | /51.15.34.47:61000 lost connection
-09:47:18 | Technobladedies [151.236.172.235] logged in with entity id 229 at (26.24458133550707, 79.0, -32.02519003050071)
-09:47:48 | Technobladedies lost connection: disconnect.quitting
-11:56:15 | /51.15.34.47:61000 lost connection
-12:12:48 | /51.15.34.47:61000 lost connection
-12:42:42 | /51.15.34.47:61000 lost connection
-14:02:03 | /51.15.34.47:61000 lost connection
-14:40:04 | /51.15.34.47:61000 lost connection
-15:56:33 | /51.15.34.47:61000 lost connection
-16:41:26 | /51.15.34.47:61000 lost connection
-17:11:09 | /51.15.34.47:61000 lost connection
-18:31:31 | /51.15.34.47:61000 lost connection
-18:51:21 | /51.15.34.47:61000 lost connection
-19:39:02 | /51.15.34.47:61000 lost connection
-19:50:18 | /51.15.34.47:61000 lost connection
-20:19:07 | /51.15.34.47:61000 lost connection
-22:11:29 | /51.15.34.47:61000 lost connection
-22:45:48 | /51.15.34.47:61000 lost connection
-22:57:07 | /51.15.34.47:61000 lost connection
-23:49:03 | /51.15.34.47:61000 lost connection
-================================2023-12-10================================
-00:07:00 | /51.15.34.47:61000 lost connection
-02:06:05 | /51.15.34.47:61000 lost connection
-02:35:47 | /51.15.34.47:61000 lost connection
-05:38:52 | /51.15.34.47:61000 lost connection
-06:50:08 | /51.15.34.47:61000 lost connection
-07:11:22 | /51.15.34.47:61000 lost connection
-07:50:30 | /51.15.34.47:61000 lost connection
-09:49:01 | /51.15.34.47:61000 lost connection
-11:46:45 | /51.15.34.47:61000 lost connection
-12:51:33 | /51.15.34.47:61000 lost connection
-14:48:45 | /51.15.34.47:61000 lost connection
-15:30:18 | /51.15.34.47:61000 lost connection
-16:06:00 | /51.15.34.47:61000 lost connection
-16:25:06 | /51.15.34.47:61000 lost connection
-17:49:29 | /51.15.34.47:61000 lost connection
-18:12:43 | /51.15.34.47:61000 lost connection
-21:34:41 | /51.15.34.47:61000 lost connection
-22:05:48 | /51.15.34.47:61000 lost connection
-22:52:13 | /51.15.34.47:61000 lost connection
-23:10:25 | /51.15.34.47:61000 lost connection
-23:42:27 | /51.15.34.47:61000 lost connection
-================================2023-12-11================================
-00:15:21 | /51.15.34.47:61000 lost connection
-00:36:23 | /51.15.34.47:61000 lost connection
-01:26:18 | /51.15.34.47:61000 lost connection
-01:47:42 | /51.15.34.47:61000 lost connection
-01:57:26 | /51.15.34.47:61000 lost connection
-02:05:32 | /51.15.34.47:61000 lost connection
-02:18:40 | /51.15.34.47:61000 lost connection
-02:50:34 | Nitpick [69.178.30.70] logged in with entity id 192 at (78.46363606836631, 68.0, 95.69999998807907)
-02:51:48 | Nitpick lost connection: disconnect.quitting
-03:11:00 | /51.15.34.47:61000 lost connection
-04:24:19 | /51.15.34.47:61000 lost connection
-04:39:06 | /51.15.34.47:61000 lost connection
-05:04:58 | /51.15.34.47:61000 lost connection
-05:26:25 | /51.15.34.47:61000 lost connection
-06:56:43 | Technobladedies [151.236.172.235] logged in with entity id 154 at (30.56758775700306, 77.0, -29.875391709509366)
-06:57:57 | Technobladedies lost connection: disconnect.quitting
-07:26:42 | /51.15.34.47:61000 lost connection
-08:24:35 | /51.15.34.47:61000 lost connection
-09:07:13 | /51.15.34.47:61000 lost connection
-11:41:34 | /51.15.34.47:61000 lost connection
-11:58:14 | /51.15.34.47:61000 lost connection
-12:37:57 | /51.15.34.47:61000 lost connection
-12:46:11 | /51.15.34.47:61000 lost connection
-13:27:28 | /51.15.34.47:61000 lost connection
-13:59:36 | /51.15.34.47:61000 lost connection
-14:24:07 | /51.15.34.47:61000 lost connection
-15:52:39 | /51.15.34.47:61000 lost connection
-16:50:27 | /51.15.34.47:61000 lost connection
-17:01:40 | /51.15.34.47:61000 lost connection
-17:02:08 | Technobladedies [151.236.172.248] logged in with entity id 1999 at (40.06153589662753, 69.0, 5.138342916237866)
-17:03:09 | Technobladedies lost connection: disconnect.quitting
-17:23:27 | /51.15.34.47:61000 lost connection
-18:24:05 | /51.15.34.47:61000 lost connection
-19:27:04 | Technobladedies [151.236.172.248] logged in with entity id 2688 at (16.84375, 72.0, -28.09375)
-19:27:19 | Technobladedies lost connection: disconnect.quitting
-19:43:58 | /51.15.34.47:61000 lost connection
-20:33:18 | Technobladedies [151.236.172.248] logged in with entity id 2745 at (16.8550718969875, 71.0, -30.866766768271887)
-20:33:41 | Technobladedies lost connection: disconnect.quitting
-20:41:37 | Hasan [151.236.172.248] logged in with entity id 3128 at (110.9789951322865, 67.0, 25.190329353014935)
-20:42:01 | Technobladedies [151.236.172.248] logged in with entity id 3807 at (26.693016268883863, 73.0, -1.0765285143133343)
-20:54:15 | Technobladedies lost connection: disconnect.quitting
-20:54:46 | Will88_M45 [151.236.172.248] logged in with entity id 13818 at (47.102373113207506, 74.0, -76.66621854629638)
+12:37:41 | LOGOUT <- AdraeCutesie after 05:54 minutes
+12:38:05 | LOGIN  -> TheLastCookie [151.236.172.235] at (191,74,239)
+12:38:34 | LOGOUT <- TheLastCookie after 00:29 minutes
+12:38:49 | LOGIN  -> EncryptedDvjjrxv [151.236.172.235] at (43,66,73)
+12:40:16 | LOGOUT <- EncryptedDvjjrxv after 01:27 minutes
+12:40:36 | LOGIN  -> enemyVTOL [151.236.172.235] at (145,69,96)
+12:41:46 | LOGOUT <- enemyVTOL after 01:10 minutes
+12:42:08 | LOGIN  -> 0xQ [151.236.172.235] at (265,98,225)
+12:45:08 | LOGOUT <- 0xQ after 03:00 minutes
+19:32:27 | LOGIN  -> Technobladedies [151.236.172.235] at (4,73,21)
+19:33:46 | LOGOUT <- Technobladedies after 01:19 minutes
+20:35:39 | LOGIN  -> Technobladedies [151.236.172.235] at (-0,75,-5)
+20:37:37 | LOGOUT <- Technobladedies after 01:58 minutes
+========================================== 2023-12-09 ==========================================
+09:47:18 | LOGIN  -> Technobladedies [151.236.172.235] at (26,79,-32)
+09:47:48 | LOGOUT <- Technobladedies after 00:30 minutes
+========================================== 2023-12-11 ==========================================
+02:50:34 | LOGIN  -> Nitpick [69.178.30.70] at (78,68,95)
+02:51:48 | LOGOUT <- Nitpick after 01:14 minutes
+06:56:43 | LOGIN  -> Technobladedies [151.236.172.235] at (30,77,-29)
+06:57:57 | LOGOUT <- Technobladedies after 01:14 minutes
+17:02:08 | LOGIN  -> Technobladedies [151.236.172.248] at (40,69,5)
+17:03:09 | LOGOUT <- Technobladedies after 01:01 minutes
+19:27:04 | LOGIN  -> Technobladedies [151.236.172.248] at (16,72,-28)
+19:27:19 | LOGOUT <- Technobladedies after 00:15 minutes
+20:33:18 | LOGIN  -> Technobladedies [151.236.172.248] at (16,71,-30)
+20:33:41 | LOGOUT <- Technobladedies after 00:23 minutes
+20:41:37 | LOGIN  -> Hasan [151.236.172.248] at (110,67,25)
+20:42:01 | LOGIN  -> Technobladedies [151.236.172.248] at (26,73,-1)
+20:54:15 | LOGOUT <- Technobladedies after 12:14 minutes
+20:54:46 | LOGIN  -> Will88_M45 [151.236.172.248] at (47,74,-76)
 20:55:24 | Will88_M45 issued server command: gamemode creative
 20:55:29 | Will88_M45 issued server command: gamemode creative
-20:57:35 | Will88_M45 lost connection: disconnect.quitting
-20:58:04 | Technobladedies [151.236.172.248] logged in with entity id 18137 at (67.00736903820372, 70.0, 89.94702049391782)
+20:57:35 | LOGOUT <- Will88_M45 after 02:49 minutes
+20:58:04 | LOGIN  -> Technobladedies [151.236.172.248] at (67,70,89)
 21:02:16 | <§dTechnobladedies§f> aa
-21:11:36 | Hasan lost connection: disconnect.quitting
-21:11:40 | Technobladedies lost connection: disconnect.quitting
-21:42:32 | Technobladedies [151.236.172.248] logged in with entity id 26716 at (157.02702828760317, 71.0, 580.0278736421049)
-21:42:36 | Technobladedies lost connection: Disconnected: java.net.SocketException: Connection reset
-21:51:50 | /51.15.34.47:61000 lost connection
-22:05:20 | /51.15.34.47:61000 lost connection
-22:25:54 | /51.15.34.47:61000 lost connection
-22:36:22 | /51.15.34.47:61000 lost connection
-23:17:59 | /51.15.34.47:61000 lost connection
-23:33:39 | /51.15.34.47:61000 lost connection
-================================2023-12-12================================
-00:07:23 | /51.15.34.47:61000 lost connection
-00:35:10 | /51.15.34.47:61000 lost connection
-00:53:52 | /51.15.34.47:61000 lost connection
-01:18:12 | /51.15.34.47:61000 lost connection
-02:11:15 | /51.15.34.47:61000 lost connection
-02:58:34 | /51.15.34.47:61000 lost connection
-03:20:14 | /51.15.34.47:61000 lost connection
-03:29:57 | /51.15.34.47:61000 lost connection
-05:22:23 | /51.15.34.47:61000 lost connection
-05:34:47 | /51.15.34.47:61000 lost connection
-06:33:36 | /51.15.34.47:61000 lost connection
-07:33:25 | f0tzepol [162.154.109.34] logged in with entity id 139 at (156.98641952901056, 97.0, 200.46150295044862)
-07:33:35 | f0tzepol lost connection: disconnect.quitting
-08:07:22 | Technobladedies [151.236.172.238] logged in with entity id 375 at (157.02702828760317, 71.0, 580.0278736421049)
+21:11:36 | LOGOUT <- Hasan after 29:59 minutes
+21:11:40 | LOGOUT <- Technobladedies after 13:36 minutes
+21:42:32 | LOGIN  -> Technobladedies [151.236.172.248] at (157,71,580)
+21:42:36 | LOGOUT <- Technobladedies after 00:04 minutes
+========================================== 2023-12-12 ==========================================
+07:33:25 | LOGIN  -> f0tzepol [162.154.109.34] at (156,97,200)
+07:33:35 | LOGOUT <- f0tzepol after 00:10 minutes
+08:07:22 | LOGIN  -> Technobladedies [151.236.172.238] at (157,71,580)
 08:07:38 | <§dTechnobladedies§f> ?
 08:07:45 | <§dTechnobladedies§f> anyone?
 08:07:49 | <§dTechnobladedies§f> guess nof
 08:07:51 | <§dTechnobladedies§f> not
-08:07:56 | Technobladedies lost connection: disconnect.quitting
-08:08:29 | /51.15.34.47:61000 lost connection
-09:10:14 | /51.15.34.47:61000 lost connection
-09:32:05 | Technobladedies [151.236.172.238] logged in with entity id 474 at (155.4877707052231, 69.0, 564.9857927793756)
-09:32:25 | Technobladedies lost connection: disconnect.quitting
-11:19:53 | /51.15.34.47:61000 lost connection
-12:07:36 | /51.15.34.47:61000 lost connection
-13:52:44 | /51.15.34.47:61000 lost connection
-15:49:55 | /51.15.34.47:61000 lost connection
-16:12:27 | /51.15.34.47:61000 lost connection
-17:03:25 | /51.15.34.47:61000 lost connection
-18:52:31 | /51.15.34.47:61000 lost connection
-19:34:28 | f0tzepol [162.154.109.34] logged in with entity id 568 at (162.55930308315394, 92.0, 210.03567412788473)
-19:34:40 | f0tzepol lost connection: disconnect.quitting
-19:35:22 | /51.15.34.47:61000 lost connection
-22:26:03 | /51.15.34.47:61000 lost connection
-22:47:15 | /51.15.34.47:61000 lost connection
-23:13:33 | /51.15.34.47:61000 lost connection
-23:32:45 | /51.15.34.47:61000 lost connection
-================================2023-12-13================================
-00:22:55 | /51.15.34.47:61000 lost connection
-00:38:43 | /51.15.34.47:61000 lost connection
-02:28:36 | /51.15.34.47:61000 lost connection
-06:15:51 | /51.15.34.47:61000 lost connection
-06:34:00 | /51.15.34.47:61000 lost connection
-06:50:28 | Technobladedies [151.236.172.238] logged in with entity id 139 at (156.35428609890198, 70.0, 569.283814792648)
-06:50:54 | Technobladedies lost connection: disconnect.quitting
-08:11:33 | Technobladedies [151.236.172.238] logged in with entity id 237 at (175.1198560393239, 64.0, 558.782243016383)
-08:12:20 | Technobladedies lost connection: disconnect.quitting
-08:42:59 | /51.15.34.47:61000 lost connection
-09:37:27 | /51.15.34.47:61000 lost connection
-12:06:53 | /51.15.34.47:61000 lost connection
-13:34:44 | /51.15.34.47:61000 lost connection
-14:20:04 | Disconnecting /45.143.200.14:63070: Protocol error
-14:20:04 | /45.143.200.14:63070 lost connection
-14:32:37 | /51.15.34.47:61000 lost connection
-14:45:24 | /51.15.34.47:61000 lost connection
-17:24:50 | /51.15.34.47:61000 lost connection
-17:55:18 | /51.15.34.47:61000 lost connection
-19:34:40 | /51.15.34.47:61000 lost connection
-================================2023-12-14================================
-00:24:41 | /51.15.34.47:61000 lost connection
-00:38:08 | /51.15.34.47:61000 lost connection
-01:24:29 | /51.15.34.47:61000 lost connection
-01:39:16 | Disconnecting /51.77.32.184:56402: Protocol error
-01:39:16 | /51.77.32.184:56402 lost connection
-02:13:29 | /51.15.34.47:61000 lost connection
-03:36:25 | /51.15.34.47:61000 lost connection
-04:13:53 | /51.15.34.47:61000 lost connection
-05:45:17 | /51.15.34.47:61000 lost connection
-06:37:49 | /51.15.34.47:61000 lost connection
-06:47:23 | /51.15.34.47:61000 lost connection
-08:49:44 | /51.15.34.47:61000 lost connection
-10:37:29 | Technobladedies [151.236.172.238] logged in with entity id 139 at (248.31960570525806, 69.0, 668.8967102487326)
-10:38:06 | Technobladedies lost connection: disconnect.quitting
-11:09:36 | /51.15.34.47:61000 lost connection
-13:21:33 | /51.15.34.47:61000 lost connection
-13:32:40 | /51.15.34.47:61000 lost connection
-13:35:37 | Technobladedies [151.236.172.238] logged in with entity id 1971 at (240.88099274627288, 71.0, 680.8573706439743)
-13:36:44 | Technobladedies lost connection: disconnect.quitting
-16:30:24 | /51.15.34.47:61000 lost connection
-17:49:37 | /51.15.34.47:61000 lost connection
-19:31:54 | /51.15.34.47:61000 lost connection
-19:46:48 | /51.15.34.47:61000 lost connection
-21:48:22 | /51.15.34.47:61000 lost connection
-21:56:56 | Player [161.10.201.175] logged in with entity id 2858 at (61.46875, 66.0, 33.03125)
+08:07:56 | LOGOUT <- Technobladedies after 00:34 minutes
+09:32:05 | LOGIN  -> Technobladedies [151.236.172.238] at (155,69,564)
+09:32:25 | LOGOUT <- Technobladedies after 00:20 minutes
+19:34:28 | LOGIN  -> f0tzepol [162.154.109.34] at (162,92,210)
+19:34:40 | LOGOUT <- f0tzepol after 00:12 minutes
+========================================== 2023-12-13 ==========================================
+06:50:28 | LOGIN  -> Technobladedies [151.236.172.238] at (156,70,569)
+06:50:54 | LOGOUT <- Technobladedies after 00:26 minutes
+08:11:33 | LOGIN  -> Technobladedies [151.236.172.238] at (175,64,558)
+08:12:20 | LOGOUT <- Technobladedies after 00:47 minutes
+========================================== 2023-12-14 ==========================================
+10:37:29 | LOGIN  -> Technobladedies [151.236.172.238] at (248,69,668)
+10:38:06 | LOGOUT <- Technobladedies after 00:37 minutes
+13:35:37 | LOGIN  -> Technobladedies [151.236.172.238] at (240,71,680)
+13:36:44 | LOGOUT <- Technobladedies after 01:07 minutes
+21:56:56 | LOGIN  -> Player [161.10.201.175] at (61,66,33)
 21:57:15 | <§bPlayer§f> f
 22:00:08 | Player tried command: ping
-22:05:25 | Player lost connection: disconnect.quitting
-22:15:12 | /51.15.34.47:61000 lost connection
-23:04:43 | /51.15.34.47:61000 lost connection
-================================2023-12-15================================
-01:48:49 | /51.15.34.47:61000 lost connection
-02:33:27 | /51.15.34.47:61000 lost connection
-02:47:17 | /51.15.34.47:61000 lost connection
-03:42:05 | /51.15.34.47:61000 lost connection
-04:12:15 | /51.15.34.47:61000 lost connection
-05:09:34 | /51.15.34.47:61000 lost connection
-05:16:36 | /51.15.34.47:61000 lost connection
-05:57:25 | /51.15.34.47:61000 lost connection
-09:42:39 | Technobladedies [151.236.172.230] logged in with entity id 156 at (261.3598726681868, 67.0, 651.500577769238)
+22:05:25 | LOGOUT <- Player after 08:29 minutes
+========================================== 2023-12-15 ==========================================
+09:42:39 | LOGIN  -> Technobladedies [151.236.172.230] at (261,67,651)
 09:42:54 | <§dTechnobladedies§f> no?
-09:43:08 | Technobladedies lost connection: disconnect.quitting
-09:43:09 | Technobladedies [151.236.172.230] logged in with entity id 242 at (267.83468674568655, 67.0, 652.6999999880791)
+09:43:08 | LOGOUT <- Technobladedies after 00:29 minutes
+09:43:09 | LOGIN  -> Technobladedies [151.236.172.230] at (267,67,652)
 09:43:14 | <§dTechnobladedies§f> tt
-09:43:32 | Technobladedies lost connection: disconnect.quitting
-10:17:35 | /51.15.34.47:61000 lost connection
-10:28:27 | /51.15.34.47:61000 lost connection
-12:15:41 | Disconnecting /45.227.254.19:64998: Protocol error
-12:15:41 | /45.227.254.19:64998 lost connection
-12:34:49 | /51.15.34.47:61000 lost connection
-13:49:17 | /51.15.34.47:61000 lost connection
-17:33:25 | /51.15.34.47:61000 lost connection
-19:14:38 | /51.15.34.47:61000 lost connection
-19:24:35 | /51.15.34.47:61000 lost connection
-19:51:31 | /51.15.34.47:61000 lost connection
-20:08:36 | /51.15.34.47:61000 lost connection
-21:55:06 | /51.15.34.47:61000 lost connection
-22:46:28 | /51.15.34.47:61000 lost connection
-23:16:09 | /51.15.34.47:61000 lost connection
-================================2023-12-16================================
-02:09:44 | /51.15.34.47:61000 lost connection
-02:29:47 | /51.15.34.47:61000 lost connection
-02:44:34 | /51.15.34.47:61000 lost connection
-03:49:28 | /51.15.34.47:61000 lost connection
-06:55:20 | /51.15.34.47:61000 lost connection
-07:19:40 | /51.15.34.47:61000 lost connection
-08:33:16 | /51.15.34.47:61000 lost connection
-09:15:23 | /51.15.34.47:61000 lost connection
-10:11:19 | /51.15.34.47:61000 lost connection
-11:38:53 | /51.15.34.47:61000 lost connection
-12:21:45 | /51.15.34.47:61000 lost connection
-13:56:18 | /51.15.34.47:61000 lost connection
-14:02:04 | /51.15.34.47:61000 lost connection
-14:24:05 | /51.15.34.47:61000 lost connection
-17:08:49 | /51.15.34.47:61000 lost connection
-17:33:40 | /51.15.34.47:61000 lost connection
-19:49:07 | /51.15.34.47:61000 lost connection
-20:21:06 | /51.15.34.47:61000 lost connection
-21:01:46 | /51.15.34.47:61000 lost connection
-================================2023-12-17================================
-12:54:03 | /51.15.34.47:61000 lost connection
-================================2023-12-18================================
-03:09:43 | /51.15.34.47:61000 lost connection
-03:56:55 | /51.15.34.47:61000 lost connection
-04:28:06 | /51.15.34.47:61000 lost connection
-04:42:56 | /51.15.34.47:61000 lost connection
-07:49:04 | /51.15.34.47:61000 lost connection
-08:14:40 | /51.15.34.47:61000 lost connection
-09:55:43 | /51.15.34.47:61000 lost connection
-10:01:05 | /51.15.34.47:61000 lost connection
-12:03:57 | /51.15.34.47:61000 lost connection
-12:37:59 | /51.15.34.47:61000 lost connection
-14:03:23 | /51.15.34.47:61000 lost connection
-15:34:31 | /51.15.34.47:61000 lost connection
-18:08:13 | /51.15.34.47:61000 lost connection
-18:19:09 | /51.15.34.47:61000 lost connection
-19:21:41 | /51.15.34.47:61000 lost connection
-19:59:44 | /51.15.34.47:61000 lost connection
-================================2023-12-19================================
-01:04:03 | /51.15.34.47:61000 lost connection
-01:30:47 | /51.15.34.47:61000 lost connection
-01:46:27 | /51.15.34.47:61000 lost connection
-02:33:01 | /51.15.34.47:61000 lost connection
-02:48:37 | /51.15.34.47:61000 lost connection
-03:17:34 | /51.15.34.47:61000 lost connection
-03:35:05 | /51.15.34.47:61000 lost connection
-21:33:54 | /51.15.34.47:61000 lost connection
-22:23:19 | Tor1zo [190.210.32.188] logged in with entity id 143 at (9.5, 66.62000000476837, -84.5)
-22:28:50 | Tor1zo lost connection: disconnect.quitting
-23:08:59 | /51.15.34.47:61000 lost connection
-23:16:42 | /51.15.34.47:61000 lost connection
-================================2023-12-20================================
-01:41:51 | /51.15.34.47:61000 lost connection
-02:09:13 | /51.15.34.47:61000 lost connection
-02:56:17 | /51.15.34.47:61000 lost connection
-03:26:34 | /51.15.34.47:61000 lost connection
-04:20:10 | /51.15.34.47:61000 lost connection
-08:18:21 | /51.15.34.47:61000 lost connection
-08:28:16 | /51.15.34.47:61000 lost connection
-10:33:20 | /51.15.34.47:61000 lost connection
-11:23:52 | /51.15.34.47:61000 lost connection
-14:32:44 | /51.15.34.47:61000 lost connection
-15:52:06 | /51.15.34.47:61000 lost connection
-18:57:32 | /51.15.34.47:61000 lost connection
-20:30:04 | /51.15.34.47:61000 lost connection
-23:58:39 | /51.15.34.47:61000 lost connection
-================================2023-12-21================================
-01:45:08 | /51.15.34.47:61000 lost connection
-02:01:25 | /51.15.34.47:61000 lost connection
-02:50:14 | /51.15.34.47:61000 lost connection
-03:08:42 | /51.15.34.47:61000 lost connection
-04:30:55 | /51.15.34.47:61000 lost connection
-04:44:06 | /51.15.34.47:61000 lost connection
-05:30:11 | /51.15.34.47:61000 lost connection
-07:10:18 | /51.15.34.47:61000 lost connection
-11:44:34 | /51.15.34.47:61000 lost connection
-11:59:46 | /51.15.34.47:61000 lost connection
-12:13:45 | /51.15.34.47:61000 lost connection
-16:48:26 | /51.15.34.47:61000 lost connection
-17:15:35 | /51.15.34.47:61000 lost connection
-17:49:42 | /51.15.34.47:61000 lost connection
-18:30:17 | /51.15.34.47:61000 lost connection
-20:58:15 | /51.15.34.47:61000 lost connection
-================================2023-12-22================================
-00:31:50 | /51.15.34.47:61000 lost connection
-01:57:29 | /51.15.34.47:61000 lost connection
-02:10:08 | /51.15.34.47:61000 lost connection
-02:26:45 | /51.15.34.47:61000 lost connection
-04:04:05 | /51.15.34.47:61000 lost connection
-04:14:59 | /51.15.34.47:61000 lost connection
-05:06:30 | /51.15.34.47:61000 lost connection
-06:52:33 | /51.15.34.47:61000 lost connection
-14:03:14 | /51.15.34.47:61000 lost connection
-14:36:14 | /51.15.34.47:61000 lost connection
-15:39:51 | /51.15.34.47:61000 lost connection
-15:46:03 | /51.15.34.47:61000 lost connection
-16:37:47 | /51.15.34.47:61000 lost connection
-17:09:41 | /51.15.34.47:61000 lost connection
-19:16:27 | /51.15.34.47:61000 lost connection
-23:19:40 | /51.15.34.47:61000 lost connection
-================================2023-12-23================================
-03:41:10 | /51.15.34.47:61000 lost connection
-04:51:38 | /51.15.34.47:61000 lost connection
-05:34:45 | /51.15.34.47:61000 lost connection
-06:25:18 | /51.15.34.47:61000 lost connection
-07:03:00 | /51.15.34.47:61000 lost connection
-07:51:52 | /51.15.34.47:61000 lost connection
-08:46:34 | /51.15.34.47:61000 lost connection
-09:55:16 | /51.15.34.47:61000 lost connection
-12:53:06 | /51.15.34.47:61000 lost connection
-14:17:17 | /51.15.34.47:61000 lost connection
-14:37:09 | /51.15.34.47:61000 lost connection
-15:51:38 | /51.15.34.47:61000 lost connection
-16:10:02 | /51.15.34.47:61000 lost connection
-16:49:38 | /51.15.34.47:61000 lost connection
-17:06:11 | /51.15.34.47:61000 lost connection
-18:28:56 | Karkarox [83.31.242.116] logged in with entity id 202 at (108.63323494995849, 69.0, -269.28353915516516)
+09:43:32 | LOGOUT <- Technobladedies after 00:23 minutes
+========================================== 2023-12-19 ==========================================
+22:23:19 | LOGIN  -> Tor1zo [190.210.32.188] at (9,66,-84)
+22:28:50 | LOGOUT <- Tor1zo after 05:31 minutes
+========================================== 2023-12-23 ==========================================
+18:28:56 | LOGIN  -> Karkarox [83.31.242.116] at (108,69,-269)
 18:29:04 | <§5Karkarox§f> high
-18:37:54 | Karkarox lost connection: disconnect.quitting
-19:18:07 | Karkarox [83.31.242.116] logged in with entity id 14046 at (-471.7669059364914, 86.0, -387.8425370054805)
-19:18:28 | Karkarox lost connection: disconnect.quitting
-19:28:51 | Karkarox [83.31.242.116] logged in with entity id 14549 at (-504.15402862281076, 85.0, -398.9355258433822)
-19:37:45 | Karkarox lost connection: disconnect.quitting
-19:46:29 | /51.15.34.47:61000 lost connection
-19:47:52 | Karkarox [83.31.242.116] logged in with entity id 37755 at (-587.5023450495182, 70.0, -146.70308360119122)
-19:58:10 | Karkarox lost connection: disconnect.quitting
-20:10:40 | Karkarox [83.31.242.116] logged in with entity id 69525 at (-426.13967333984914, 80.0, -50.08937580470479)
-20:12:28 | Karkarox lost connection: disconnect.quitting
-20:38:41 | /51.15.34.47:61000 lost connection
-22:14:34 | /51.15.34.47:61000 lost connection
-================================2023-12-24================================
-02:09:17 | /51.15.34.47:61000 lost connection
-03:24:53 | /51.15.34.47:61000 lost connection
-05:56:27 | /51.15.34.47:61000 lost connection
-06:54:47 | /51.15.34.47:61000 lost connection
-07:46:37 | /51.15.34.47:61000 lost connection
-09:26:30 | /51.15.34.47:61000 lost connection
-10:16:36 | /51.15.34.47:61000 lost connection
-11:23:23 | Karkarox [83.31.242.116] logged in with entity id 73 at (-597.1707372180057, 70.0, -109.53288543065331)
-11:23:32 | Karkarox lost connection: disconnect.quitting
-11:28:04 | Karkarox [83.31.242.116] logged in with entity id 186 at (-593.8992067588133, 70.0, -111.4056370957408)
-11:38:54 | Karkarox lost connection: disconnect.quitting
-11:56:40 | Karkarox [83.31.242.116] logged in with entity id 23778 at (-661.8951955595073, 74.0, -436.43299703182646)
-11:58:28 | Karkarox lost connection: disconnect.quitting
-12:42:14 | Karkarox [83.31.242.116] logged in with entity id 30146 at (-803.0911223422024, 64.0, -314.09255138219686)
-12:42:29 | Karkarox lost connection: disconnect.quitting
-12:49:07 | Karkarox [83.31.242.116] logged in with entity id 30253 at (-803.0911223422024, 64.0, -314.09255138219686)
-12:58:50 | Karkarox lost connection: disconnect.quitting
-13:06:19 | Karkarox [83.31.242.116] logged in with entity id 44855 at (-1440.3322024714512, 72.0, 119.76475091575263)
-13:06:25 | Karkarox lost connection: disconnect.quitting
-13:08:20 | Karkarox [83.31.242.116] logged in with entity id 44951 at (-1442.4938743505452, 72.0, 121.5707336920269)
-13:15:34 | /51.15.34.47:61000 lost connection
-13:18:19 | Karkarox lost connection: disconnect.quitting
-13:29:54 | Karkarox [83.31.242.116] logged in with entity id 54401 at (-1234.9145381256913, 74.0, 696.5287473780013)
-13:30:30 | /51.15.34.47:61000 lost connection
-13:38:44 | Karkarox lost connection: disconnect.quitting
-13:48:31 | Karkarox [83.31.242.116] logged in with entity id 60155 at (-1260.8530897291566, 72.0, 796.0329119697801)
-13:51:03 | Karkarox lost connection: disconnect.quitting
-14:19:27 | Karkarox [83.31.242.116] logged in with entity id 61687 at (-1247.2516009689136, 72.0, 697.1752524789426)
-14:19:39 | Karkarox lost connection: disconnect.quitting
-14:24:44 | Karkarox [83.31.242.116] logged in with entity id 61794 at (-1247.2516009689136, 72.0, 697.1752524789426)
-14:24:47 | Karkarox lost connection: disconnect.quitting
-14:28:18 | Karkarox [83.31.242.116] logged in with entity id 61901 at (-1247.2516009689136, 72.0, 697.1752524789426)
-14:37:35 | Karkarox lost connection: disconnect.quitting
-14:37:55 | Karkarox [83.31.242.116] logged in with entity id 71844 at (-1075.4318088423674, 85.0, 976.1967046758132)
-14:38:41 | Karkarox lost connection: disconnect.quitting
-14:46:49 | Karkarox [83.31.242.116] logged in with entity id 73247 at (-947.6454751823799, 80.0, 979.6197145049765)
-14:47:00 | Karkarox lost connection: disconnect.quitting
-14:48:37 | Karkarox [83.31.242.116] logged in with entity id 73381 at (-950.5408002327364, 80.0, 981.7473399812565)
-14:58:47 | Karkarox lost connection: disconnect.quitting
-15:03:35 | Karkarox [83.31.242.116] logged in with entity id 94785 at (-485.5166781695889, 73.0, 43.071560288711844)
-15:03:38 | Karkarox lost connection: disconnect.quitting
-15:05:23 | Karkarox [83.31.242.116] logged in with entity id 94903 at (-485.5166781695889, 73.0, 43.071560288711844)
-15:05:27 | Karkarox lost connection: disconnect.quitting
-15:08:42 | Karkarox [83.31.242.116] logged in with entity id 95002 at (-485.5166781695889, 73.0, 43.071560288711844)
-15:18:50 | Karkarox lost connection: disconnect.quitting
-15:34:32 | /51.15.34.47:61000 lost connection
-15:46:20 | Karkarox [83.31.242.116] logged in with entity id 140546 at (32.26018328926193, 107.0, -75.65295875551556)
-15:46:37 | Karkarox lost connection: disconnect.quitting
-15:49:25 | Karkarox [83.31.242.116] logged in with entity id 140997 at (18.49166296644268, 107.0, -71.3327076484912)
-15:53:50 | Karkarox lost connection: disconnect.quitting
-16:01:16 | Karkarox [83.31.242.116] logged in with entity id 152301 at (-5.352173888253277, 67.0, -68.33470388252303)
-16:01:23 | Karkarox lost connection: disconnect.quitting
-16:07:20 | /51.15.34.47:61000 lost connection
-16:07:24 | Karkarox [83.31.242.116] logged in with entity id 152536 at (-5.352173888253277, 67.0, -68.33470388252303)
-16:20:33 | Karkarox lost connection: disconnect.quitting
-16:25:57 | Karkarox [83.31.242.116] logged in with entity id 170029 at (-35.23928661096636, 87.0, -87.5134092760562)
-16:41:44 | Karkarox lost connection: disconnect.quitting
-16:45:08 | Karkarox [83.31.242.116] logged in with entity id 199323 at (17.02096168940417, 106.0, -71.57006193134293)
-16:45:14 | Karkarox lost connection: disconnect.quitting
-16:46:55 | Karkarox [83.31.242.116] logged in with entity id 199388 at (17.02096168940417, 106.0, -71.57006193134293)
-16:58:45 | Karkarox lost connection: disconnect.quitting
-17:07:24 | Karkarox [83.31.242.116] logged in with entity id 219703 at (-35.00845491745325, 87.0, -53.6677098222816)
-17:18:56 | Karkarox lost connection: disconnect.quitting
-17:26:32 | Karkarox [83.31.242.116] logged in with entity id 238555 at (6.15625, 65.0, -85.71875)
-17:26:38 | Karkarox lost connection: disconnect.quitting
-17:28:50 | Karkarox [83.31.242.116] logged in with entity id 238701 at (3.399763561352017, 66.0, -83.43611764213126)
-17:38:57 | Karkarox lost connection: disconnect.quitting
-17:48:34 | Karkarox [83.31.242.116] logged in with entity id 254288 at (-35.23777572247567, 87.0, -77.11416456051651)
-17:59:16 | Karkarox lost connection: disconnect.quitting
-18:09:05 | Karkarox [83.31.242.116] logged in with entity id 276401 at (-35.666164339113145, 87.0, -108.27462249137633)
-18:18:44 | Karkarox lost connection: disconnect.quitting
-18:28:41 | Karkarox [83.31.242.116] logged in with entity id 292051 at (-19.574009307094563, 80.0, -115.6785267156261)
-18:38:36 | Karkarox lost connection: disconnect.quitting
-18:41:22 | xra [83.31.242.116] logged in with entity id 307907 at (4.5, 66.62000000476837, -79.5)
-18:41:44 | xra lost connection: disconnect.quitting
-18:47:43 | Karkarox [83.31.242.116] logged in with entity id 308093 at (7.545995832108556, 65.0, -86.0396965130109)
-18:58:35 | Karkarox lost connection: disconnect.quitting
-19:07:43 | Karkarox [83.31.242.116] logged in with entity id 329210 at (-38.64420261340669, 88.0, -48.430997486639285)
-19:18:45 | Karkarox lost connection: disconnect.quitting
-19:27:35 | Karkarox [83.31.242.116] logged in with entity id 348013 at (-40.351680167221694, 88.0, -73.44174515319656)
-19:27:45 | Karkarox lost connection: disconnect.quitting
-22:48:48 | /51.15.34.47:61000 lost connection
-================================2023-12-25================================
-01:37:27 | /51.15.34.47:61000 lost connection
-04:18:50 | /51.15.34.47:61000 lost connection
-05:33:12 | /51.15.34.47:61000 lost connection
-06:28:10 | /51.15.34.47:61000 lost connection
-06:42:32 | /51.15.34.47:61000 lost connection
-07:50:32 | /51.15.34.47:61000 lost connection
-11:18:28 | /51.15.34.47:61000 lost connection
-11:37:23 | /51.15.34.47:61000 lost connection
-13:23:20 | /51.15.34.47:61000 lost connection
-14:04:29 | /51.15.34.47:61000 lost connection
-15:53:54 | /51.15.34.47:61000 lost connection
-16:22:21 | /51.15.34.47:61000 lost connection
-19:25:00 | /51.15.34.47:61000 lost connection
-19:46:00 | /51.15.34.47:61000 lost connection
-20:46:56 | /51.15.34.47:61000 lost connection
-21:15:03 | /51.15.34.47:61000 lost connection
-23:03:08 | /51.15.34.47:61000 lost connection
-================================2023-12-26================================
-02:06:59 | /51.15.34.47:61000 lost connection
-04:27:42 | /51.15.34.47:61000 lost connection
-06:10:33 | EncryptedDvjjrxv [24.232.253.37] logged in with entity id 154 at (42.30000001192093, 63.0, 67.69999922644105)
-06:13:12 | EncryptedDvjjrxv lost connection: disconnect.quitting
-06:13:40 | EncryptedDvjjrxv [24.232.253.37] logged in with entity id 4673 at (42.30000001192093, 63.0, 67.69999998807907)
-06:16:37 | EncryptedDvjjrxv lost connection: disconnect.quitting
-06:18:23 | EncryptedDvjjrxv [24.232.253.37] logged in with entity id 8444 at (44.07324946386896, 66.0, 69.30271566688666)
-06:21:02 | EncryptedDvjjrxv lost connection: disconnect.quitting
-06:27:48 | EncryptedDvjjrxv [24.232.253.37] logged in with entity id 17016 at (43.113305103474474, 66.0, 69.85503587764572)
-06:30:21 | /51.15.34.47:61000 lost connection
-06:35:05 | EncryptedDvjjrxv lost connection: disconnect.quitting
-06:35:22 | EncryptedDvjjrxv [24.232.253.37] logged in with entity id 35719 at (62.0, 66.0, 41.0625)
-06:36:34 | EncryptedDvjjrxv lost connection: disconnect.quitting
-06:38:49 | EncryptedDvjjrxv [24.232.253.37] logged in with entity id 37245 at (62.0, 66.0, 41.0625)
-06:49:39 | EncryptedDvjjrxv lost connection: disconnect.quitting
-06:52:48 | EncryptedDvjjrxv [24.232.253.37] logged in with entity id 54899 at (61.85617522916821, 110.0, 0.9733612436577304)
-06:53:29 | EncryptedDvjjrxv lost connection: disconnect.quitting
-06:57:25 | EncryptedDvjjrxv [24.232.253.37] logged in with entity id 56498 at (54.837031864665, 66.0, 39.75435735702783)
-07:00:07 | EncryptedDvjjrxv lost connection: disconnect.quitting
-07:06:21 | EncryptedDvjjrxv [24.232.253.37] logged in with entity id 64749 at (42.84375, 66.0, 68.03125)
-07:07:59 | EncryptedDvjjrxv lost connection: disconnect.quitting
-07:10:09 | /51.15.34.47:61000 lost connection
-10:42:52 | /51.15.34.47:61000 lost connection
-10:50:51 | /51.15.34.47:61000 lost connection
-11:16:43 | /51.15.34.47:61000 lost connection
-11:27:24 | /51.15.34.47:61000 lost connection
-11:47:55 | /51.15.34.47:61000 lost connection
-11:57:08 | /51.15.34.47:61000 lost connection
-12:13:47 | /51.15.34.47:61000 lost connection
-12:51:28 | /51.15.34.47:61000 lost connection
-13:26:39 | Karkarox [83.31.242.116] logged in with entity id 65619 at (-40.54581685487033, 88.0, -73.22684463405183)
-13:27:28 | Karkarox lost connection: disconnect.quitting
-13:31:20 | Karkarox [83.31.242.116] logged in with entity id 66507 at (-40.5625, 88.0, -73.25)
-13:40:05 | Karkarox lost connection: disconnect.quitting
-14:18:14 | /51.15.34.47:61000 lost connection
-14:22:59 | Karkarox [83.31.242.116] logged in with entity id 85952 at (-40.691355994828555, 85.0, -99.07179120581954)
-14:23:04 | Karkarox lost connection: disconnect.quitting
-14:26:31 | Karkarox [83.31.242.116] logged in with entity id 86213 at (-40.691355994828555, 85.0, -99.07179120581954)
-14:26:43 | Karkarox lost connection: disconnect.quitting
-14:30:02 | /51.15.34.47:61000 lost connection
-14:30:12 | Karkarox [83.31.242.116] logged in with entity id 86380 at (-40.691355994828555, 85.0, -99.07179120581954)
-14:39:24 | Karkarox lost connection: disconnect.quitting
-15:24:40 | /51.15.34.47:61000 lost connection
-16:18:44 | /51.15.34.47:61000 lost connection
-16:29:13 | Karkarox [83.31.242.116] logged in with entity id 106108 at (-40.59375, 85.0, -132.75)
-16:40:16 | Karkarox lost connection: disconnect.quitting
-16:53:37 | revega [159.253.108.39] logged in with entity id 123029 at (133.30109246805335, 68.0, 55.654678324719065)
+18:37:54 | LOGOUT <- Karkarox after 08:58 minutes
+19:18:07 | LOGIN  -> Karkarox [83.31.242.116] at (-471,86,-387)
+19:18:28 | LOGOUT <- Karkarox after 00:21 minutes
+19:28:51 | LOGIN  -> Karkarox [83.31.242.116] at (-504,85,-398)
+19:37:45 | LOGOUT <- Karkarox after 08:54 minutes
+19:47:52 | LOGIN  -> Karkarox [83.31.242.116] at (-587,70,-146)
+19:58:10 | LOGOUT <- Karkarox after 10:18 minutes
+20:10:40 | LOGIN  -> Karkarox [83.31.242.116] at (-426,80,-50)
+20:12:28 | LOGOUT <- Karkarox after 01:48 minutes
+========================================== 2023-12-24 ==========================================
+11:23:23 | LOGIN  -> Karkarox [83.31.242.116] at (-597,70,-109)
+11:23:32 | LOGOUT <- Karkarox after 00:09 minutes
+11:28:04 | LOGIN  -> Karkarox [83.31.242.116] at (-593,70,-111)
+11:38:54 | LOGOUT <- Karkarox after 10:50 minutes
+11:56:40 | LOGIN  -> Karkarox [83.31.242.116] at (-661,74,-436)
+11:58:28 | LOGOUT <- Karkarox after 01:48 minutes
+12:42:14 | LOGIN  -> Karkarox [83.31.242.116] at (-803,64,-314)
+12:42:29 | LOGOUT <- Karkarox after 00:15 minutes
+12:49:07 | LOGIN  -> Karkarox [83.31.242.116] at (-803,64,-314)
+12:58:50 | LOGOUT <- Karkarox after 09:43 minutes
+13:06:19 | LOGIN  -> Karkarox [83.31.242.116] at (-1440,72,119)
+13:06:25 | LOGOUT <- Karkarox after 00:06 minutes
+13:08:20 | LOGIN  -> Karkarox [83.31.242.116] at (-1442,72,121)
+13:18:19 | LOGOUT <- Karkarox after 09:59 minutes
+13:29:54 | LOGIN  -> Karkarox [83.31.242.116] at (-1234,74,696)
+13:38:44 | LOGOUT <- Karkarox after 08:50 minutes
+13:48:31 | LOGIN  -> Karkarox [83.31.242.116] at (-1260,72,796)
+13:51:03 | LOGOUT <- Karkarox after 02:32 minutes
+14:19:27 | LOGIN  -> Karkarox [83.31.242.116] at (-1247,72,697)
+14:19:39 | LOGOUT <- Karkarox after 00:12 minutes
+14:24:44 | LOGIN  -> Karkarox [83.31.242.116] at (-1247,72,697)
+14:24:47 | LOGOUT <- Karkarox after 00:03 minutes
+14:28:18 | LOGIN  -> Karkarox [83.31.242.116] at (-1247,72,697)
+14:37:35 | LOGOUT <- Karkarox after 09:17 minutes
+14:37:55 | LOGIN  -> Karkarox [83.31.242.116] at (-1075,85,976)
+14:38:41 | LOGOUT <- Karkarox after 00:46 minutes
+14:46:49 | LOGIN  -> Karkarox [83.31.242.116] at (-947,80,979)
+14:47:00 | LOGOUT <- Karkarox after 00:11 minutes
+14:48:37 | LOGIN  -> Karkarox [83.31.242.116] at (-950,80,981)
+14:58:47 | LOGOUT <- Karkarox after 10:10 minutes
+15:03:35 | LOGIN  -> Karkarox [83.31.242.116] at (-485,73,43)
+15:03:38 | LOGOUT <- Karkarox after 00:03 minutes
+15:05:23 | LOGIN  -> Karkarox [83.31.242.116] at (-485,73,43)
+15:05:27 | LOGOUT <- Karkarox after 00:04 minutes
+15:08:42 | LOGIN  -> Karkarox [83.31.242.116] at (-485,73,43)
+15:18:50 | LOGOUT <- Karkarox after 10:08 minutes
+15:46:20 | LOGIN  -> Karkarox [83.31.242.116] at (32,107,-75)
+15:46:37 | LOGOUT <- Karkarox after 00:17 minutes
+15:49:25 | LOGIN  -> Karkarox [83.31.242.116] at (18,107,-71)
+15:53:50 | LOGOUT <- Karkarox after 04:25 minutes
+16:01:16 | LOGIN  -> Karkarox [83.31.242.116] at (-5,67,-68)
+16:01:23 | LOGOUT <- Karkarox after 00:07 minutes
+16:07:24 | LOGIN  -> Karkarox [83.31.242.116] at (-5,67,-68)
+16:20:33 | LOGOUT <- Karkarox after 13:09 minutes
+16:25:57 | LOGIN  -> Karkarox [83.31.242.116] at (-35,87,-87)
+16:41:44 | LOGOUT <- Karkarox after 15:47 minutes
+16:45:08 | LOGIN  -> Karkarox [83.31.242.116] at (17,106,-71)
+16:45:14 | LOGOUT <- Karkarox after 00:06 minutes
+16:46:55 | LOGIN  -> Karkarox [83.31.242.116] at (17,106,-71)
+16:58:45 | LOGOUT <- Karkarox after 11:50 minutes
+17:07:24 | LOGIN  -> Karkarox [83.31.242.116] at (-35,87,-53)
+17:18:56 | LOGOUT <- Karkarox after 11:32 minutes
+17:26:32 | LOGIN  -> Karkarox [83.31.242.116] at (6,65,-85)
+17:26:38 | LOGOUT <- Karkarox after 00:06 minutes
+17:28:50 | LOGIN  -> Karkarox [83.31.242.116] at (3,66,-83)
+17:38:57 | LOGOUT <- Karkarox after 10:07 minutes
+17:48:34 | LOGIN  -> Karkarox [83.31.242.116] at (-35,87,-77)
+17:59:16 | LOGOUT <- Karkarox after 10:42 minutes
+18:09:05 | LOGIN  -> Karkarox [83.31.242.116] at (-35,87,-108)
+18:18:44 | LOGOUT <- Karkarox after 09:39 minutes
+18:28:41 | LOGIN  -> Karkarox [83.31.242.116] at (-19,80,-115)
+18:38:36 | LOGOUT <- Karkarox after 09:55 minutes
+18:41:22 | LOGIN  -> xra [83.31.242.116] at (4,66,-79)
+18:41:44 | LOGOUT <- xra after 00:22 minutes
+18:47:43 | LOGIN  -> Karkarox [83.31.242.116] at (7,65,-86)
+18:58:35 | LOGOUT <- Karkarox after 10:52 minutes
+19:07:43 | LOGIN  -> Karkarox [83.31.242.116] at (-38,88,-48)
+19:18:45 | LOGOUT <- Karkarox after 11:02 minutes
+19:27:35 | LOGIN  -> Karkarox [83.31.242.116] at (-40,88,-73)
+19:27:45 | LOGOUT <- Karkarox after 00:10 minutes
+========================================== 2023-12-26 ==========================================
+06:10:33 | LOGIN  -> EncryptedDvjjrxv [24.232.253.37] at (42,63,67)
+06:13:12 | LOGOUT <- EncryptedDvjjrxv after 02:39 minutes
+06:13:40 | LOGIN  -> EncryptedDvjjrxv [24.232.253.37] at (42,63,67)
+06:16:37 | LOGOUT <- EncryptedDvjjrxv after 02:57 minutes
+06:18:23 | LOGIN  -> EncryptedDvjjrxv [24.232.253.37] at (44,66,69)
+06:21:02 | LOGOUT <- EncryptedDvjjrxv after 02:39 minutes
+06:27:48 | LOGIN  -> EncryptedDvjjrxv [24.232.253.37] at (43,66,69)
+06:35:05 | LOGOUT <- EncryptedDvjjrxv after 07:17 minutes
+06:35:22 | LOGIN  -> EncryptedDvjjrxv [24.232.253.37] at (62,66,41)
+06:36:34 | LOGOUT <- EncryptedDvjjrxv after 01:12 minutes
+06:38:49 | LOGIN  -> EncryptedDvjjrxv [24.232.253.37] at (62,66,41)
+06:49:39 | LOGOUT <- EncryptedDvjjrxv after 10:50 minutes
+06:52:48 | LOGIN  -> EncryptedDvjjrxv [24.232.253.37] at (61,110,0)
+06:53:29 | LOGOUT <- EncryptedDvjjrxv after 00:41 minutes
+06:57:25 | LOGIN  -> EncryptedDvjjrxv [24.232.253.37] at (54,66,39)
+07:00:07 | LOGOUT <- EncryptedDvjjrxv after 02:42 minutes
+07:06:21 | LOGIN  -> EncryptedDvjjrxv [24.232.253.37] at (42,66,68)
+07:07:59 | LOGOUT <- EncryptedDvjjrxv after 01:38 minutes
+13:26:39 | LOGIN  -> Karkarox [83.31.242.116] at (-40,88,-73)
+13:27:28 | LOGOUT <- Karkarox after 00:49 minutes
+13:31:20 | LOGIN  -> Karkarox [83.31.242.116] at (-40,88,-73)
+13:40:05 | LOGOUT <- Karkarox after 08:45 minutes
+14:22:59 | LOGIN  -> Karkarox [83.31.242.116] at (-40,85,-99)
+14:23:04 | LOGOUT <- Karkarox after 00:05 minutes
+14:26:31 | LOGIN  -> Karkarox [83.31.242.116] at (-40,85,-99)
+14:26:43 | LOGOUT <- Karkarox after 00:12 minutes
+14:30:12 | LOGIN  -> Karkarox [83.31.242.116] at (-40,85,-99)
+14:39:24 | LOGOUT <- Karkarox after 09:12 minutes
+16:29:13 | LOGIN  -> Karkarox [83.31.242.116] at (-40,85,-132)
+16:40:16 | LOGOUT <- Karkarox after 11:03 minutes
+16:53:37 | LOGIN  -> revega [159.253.108.39] at (133,68,55)
 16:53:47 | revega tried command: list
-16:54:32 | revega lost connection: disconnect.quitting
-16:55:16 | /51.15.34.47:61000 lost connection
-17:10:49 | Karkarox [83.31.242.116] logged in with entity id 123960 at (-43.77299184899884, 76.0, -62.550259597273715)
-17:20:53 | /51.15.34.47:61000 lost connection
-18:04:35 | /51.15.34.47:61000 lost connection
-18:12:50 | Karkarox lost connection: disconnect.quitting
-19:05:21 | /51.15.34.47:61000 lost connection
-21:21:01 | /51.15.34.47:61000 lost connection
-21:21:08 | Karkarox [83.31.242.116] logged in with entity id 184088 at (91.3125, 74.0, -16.75)
-21:21:17 | Karkarox lost connection: disconnect.quitting
-21:35:26 | Karkarox [83.31.242.116] logged in with entity id 184247 at (90.63273306516986, 75.0, -12.688769256954139)
-21:42:55 | Karkarox lost connection: disconnect.quitting
-22:04:16 | Karkarox [83.31.242.116] logged in with entity id 195979 at (-40.39204375814398, 85.0, -59.38261647877337)
-22:04:20 | Karkarox lost connection: disconnect.quitting
-22:10:01 | Karkarox [83.31.242.116] logged in with entity id 196264 at (-40.39204375814398, 85.0, -59.38261647877337)
-22:21:58 | Karkarox lost connection: disconnect.quitting
-22:22:18 | Karkarox [83.31.242.116] logged in with entity id 232697 at (29.75128066066382, 94.0, -90.52055657044579)
-22:22:26 | Karkarox lost connection: disconnect.quitting
-22:30:26 | Karkarox [83.31.242.116] logged in with entity id 232920 at (30.20179291687062, 94.0, -90.47049580061368)
-22:34:43 | Karkarox lost connection: disconnect.quitting
-22:49:44 | /51.15.34.47:61000 lost connection
-23:23:54 | /51.15.34.47:61000 lost connection
-================================2023-12-27================================
-00:46:48 | /51.15.34.47:61000 lost connection
-01:12:55 | /51.15.34.47:61000 lost connection
-01:36:30 | /51.15.34.47:61000 lost connection
-02:53:06 | /51.15.34.47:61000 lost connection
-04:27:42 | /51.15.34.47:61000 lost connection
-04:50:54 | /51.15.34.47:61000 lost connection
-06:15:04 | /51.15.34.47:61000 lost connection
-08:09:52 | /51.15.34.47:61000 lost connection
-09:00:57 | /51.15.34.47:61000 lost connection
-10:30:40 | /51.15.34.47:61000 lost connection
-10:39:17 | Karkarox [83.31.242.116] logged in with entity id 195 at (11.699999988079163, 101.0, -60.07568158090773)
-10:41:34 | Karkarox lost connection: disconnect.quitting
-11:08:05 | /51.15.34.47:61000 lost connection
-12:00:25 | /51.15.34.47:61000 lost connection
-14:17:46 | /51.15.34.47:61000 lost connection
-16:06:51 | /51.15.34.47:61000 lost connection
-17:09:19 | /51.15.34.47:61000 lost connection
-18:08:18 | Ino_7587 [82.125.222.138] logged in with entity id 4872 at (290.7579144425001, 115.0, 142.0585272969825)
-18:11:17 | Ino_7587 lost connection: Disconnected: java.net.SocketException: Connection reset
-18:11:40 | Ino_7587 [82.125.222.138] logged in with entity id 8103 at (184.0625, 72.0, 236.84375)
-18:17:37 | Ino_7587 lost connection: Disconnected: java.net.SocketException: Connection reset
-18:18:22 | Ino_7587 [82.125.222.138] logged in with entity id 12821 at (254.0625, 96.0, 226.6875)
-18:19:52 | Ino_7587 lost connection: Disconnected: java.net.SocketException: Connection reset
-18:20:09 | Ino_7587 [82.125.222.138] logged in with entity id 14663 at (343.26276036641593, 106.0, 198.05871624201643)
-19:04:55 | /51.15.34.47:61000 lost connection
-19:05:02 | Ino_7587 lost connection: disconnect.quitting
-21:04:22 | EncryptedDvjjrxv [24.232.253.37] logged in with entity id 40057 at (89.875, 69.0, 62.28125)
-21:07:04 | EncryptedDvjjrxv lost connection: disconnect.quitting
-21:07:53 | EncryptedDvjjrxv [24.232.253.37] logged in with entity id 42943 at (38.85261062816114, 66.0, 64.74898138091424)
-21:08:25 | EncryptedDvjjrxv lost connection: disconnect.quitting
-21:09:06 | EncryptedDvjjrxv [24.232.253.37] logged in with entity id 43095 at (41.09132642892854, 66.0, 67.23782813466622)
-21:13:45 | EncryptedDvjjrxv lost connection: disconnect.quitting
-21:28:09 | EncryptedDvjjrxv [24.232.253.37] logged in with entity id 47286 at (41.061920947294105, 66.0, 65.87710809737668)
-21:32:54 | EncryptedDvjjrxv [24.232.253.37] logged in with entity id 51290 at (41.03125, 66.0, 65.875)
-21:33:08 | EncryptedDvjjrxv lost connection: disconnect.quitting
-21:37:47 | /51.15.34.47:61000 lost connection
-22:13:14 | AgusAM [24.232.253.37] logged in with entity id 51609 at (10.5, 65.62000000476837, -92.5)
-22:13:54 | EncryptedDvjjrxv [24.232.253.37] logged in with entity id 54534 at (41.03125, 66.0, 65.875)
-22:22:30 | AgusAM lost connection: Disconnected: java.net.SocketTimeoutException: Read timed out
-22:25:58 | EncryptedDvjjrxv lost connection: disconnect.quitting
-22:36:19 | /51.15.34.47:61000 lost connection
-================================2023-12-28================================
-00:27:59 | EncryptedDvjjrxv [24.232.253.37] logged in with entity id 73092 at (47.65625, 66.0, 78.4375)
-00:29:03 | EncryptedDvjjrxv lost connection: disconnect.quitting
-00:37:26 | EncryptedDvjjrxv [24.232.253.37] logged in with entity id 73809 at (41.6875, 66.0, 66.8125)
-00:37:56 | EncryptedDvjjrxv lost connection: Disconnected: java.net.SocketTimeoutException: Read timed out
-00:41:14 | EncryptedDvjjrxv [24.232.253.37] logged in with entity id 74009 at (41.6875, 66.0, 66.8125)
-00:41:33 | EncryptedDvjjrxv lost connection: Disconnected: java.net.SocketException: Connection reset
-00:41:54 | EncryptedDvjjrxv [24.232.253.37] logged in with entity id 74200 at (41.6875, 66.0, 66.8125)
-00:43:36 | EncryptedDvjjrxv lost connection: disconnect.quitting
-00:44:09 | EncryptedDvjjrxv [24.232.253.37] logged in with entity id 77293 at (25.28125, 79.0, -25.3125)
-00:48:21 | EncryptedDvjjrxv lost connection: disconnect.quitting
-00:48:25 | EncryptedDvjjrxv [24.232.253.37] logged in with entity id 85672 at (129.43476934437857, 72.0, 83.94321331943581)
-00:50:31 | EncryptedDvjjrxv lost connection: disconnect.quitting
-07:48:15 | /51.15.34.47:61000 lost connection
-08:04:41 | /51.15.34.47:61000 lost connection
-12:21:58 | /51.15.34.47:61000 lost connection
-12:34:41 | /51.15.34.47:61000 lost connection
-12:51:45 | /51.15.34.47:61000 lost connection
-15:33:57 | Ino_7587 [82.125.222.138] logged in with entity id 93 at (194.03698754713875, 74.0, 262.6528646392913)
-16:39:33 | Ino_7587 lost connection: disconnect.quitting
-18:07:29 | Ino_7587 [151.236.172.200] logged in with entity id 34183 at (195.78119872092202, 74.0, 255.72343117316336)
-18:08:17 | Ino_7587 lost connection: disconnect.quitting
-18:08:19 | Ino_7587 [151.236.172.200] logged in with entity id 35069 at (192.46875, 74.0, 248.125)
-18:09:12 | Ino_7587 lost connection: disconnect.quitting
-18:09:18 | Ino_7587 [151.236.172.200] logged in with entity id 35221 at (193.40178107091992, 74.0, 240.96198309714902)
-18:13:09 | Ino_7587 [151.236.172.200] logged in with entity id 38214 at (194.4346923645514, 74.0, 243.02056543643025)
-18:13:43 | Ino_7587 lost connection: Disconnected: java.net.SocketTimeoutException: Read timed out
-18:16:28 | EncryptedDvjjrxv [151.236.172.200] logged in with entity id 38508 at (156.30000001192093, 75.0, 263.1313443250043)
-18:17:21 | EncryptedDvjjrxv lost connection: disconnect.quitting
-19:57:22 | C_Minecraftian [151.236.172.211] logged in with entity id 39815 at (0.5, 67.62000000476837, -83.5)
-19:57:40 | C_Minecraftian lost connection: disconnect.quitting
-19:59:27 | FoamFromTheSea [178.135.15.214] logged in with entity id 42314 at (-1.5, 67.62000000476837, -84.5)
-20:00:27 | Technobladedies [151.236.172.211] logged in with entity id 43837 at (291.64052875663816, 65.0, 662.0667499382129)
+16:54:32 | LOGOUT <- revega after 00:55 minutes
+17:10:49 | LOGIN  -> Karkarox [83.31.242.116] at (-43,76,-62)
+18:12:50 | LOGOUT <- Karkarox after 1:02:01 minutes
+21:21:08 | LOGIN  -> Karkarox [83.31.242.116] at (91,74,-16)
+21:21:17 | LOGOUT <- Karkarox after 00:09 minutes
+21:35:26 | LOGIN  -> Karkarox [83.31.242.116] at (90,75,-12)
+21:42:55 | LOGOUT <- Karkarox after 07:29 minutes
+22:04:16 | LOGIN  -> Karkarox [83.31.242.116] at (-40,85,-59)
+22:04:20 | LOGOUT <- Karkarox after 00:04 minutes
+22:10:01 | LOGIN  -> Karkarox [83.31.242.116] at (-40,85,-59)
+22:21:58 | LOGOUT <- Karkarox after 11:57 minutes
+22:22:18 | LOGIN  -> Karkarox [83.31.242.116] at (29,94,-90)
+22:22:26 | LOGOUT <- Karkarox after 00:08 minutes
+22:30:26 | LOGIN  -> Karkarox [83.31.242.116] at (30,94,-90)
+22:34:43 | LOGOUT <- Karkarox after 04:17 minutes
+========================================== 2023-12-27 ==========================================
+10:39:17 | LOGIN  -> Karkarox [83.31.242.116] at (11,101,-60)
+10:41:34 | LOGOUT <- Karkarox after 02:17 minutes
+18:08:18 | LOGIN  -> Ino_7587 [82.125.222.138] at (290,115,142)
+18:11:17 | LOGOUT <- Ino_7587 after 02:59 minutes
+18:11:40 | LOGIN  -> Ino_7587 [82.125.222.138] at (184,72,236)
+18:17:37 | LOGOUT <- Ino_7587 after 05:57 minutes
+18:18:22 | LOGIN  -> Ino_7587 [82.125.222.138] at (254,96,226)
+18:19:52 | LOGOUT <- Ino_7587 after 01:30 minutes
+18:20:09 | LOGIN  -> Ino_7587 [82.125.222.138] at (343,106,198)
+19:05:02 | LOGOUT <- Ino_7587 after 44:53 minutes
+21:04:22 | LOGIN  -> EncryptedDvjjrxv [24.232.253.37] at (89,69,62)
+21:07:04 | LOGOUT <- EncryptedDvjjrxv after 02:42 minutes
+21:07:53 | LOGIN  -> EncryptedDvjjrxv [24.232.253.37] at (38,66,64)
+21:08:25 | LOGOUT <- EncryptedDvjjrxv after 00:32 minutes
+21:09:06 | LOGIN  -> EncryptedDvjjrxv [24.232.253.37] at (41,66,67)
+21:13:45 | LOGOUT <- EncryptedDvjjrxv after 04:39 minutes
+21:28:09 | LOGIN  -> EncryptedDvjjrxv [24.232.253.37] at (41,66,65)
+21:32:54 | LOGIN  -> EncryptedDvjjrxv [24.232.253.37] at (41,66,65)
+21:33:08 | LOGOUT <- EncryptedDvjjrxv after 00:14 minutes
+22:13:14 | LOGIN  -> AgusAM [24.232.253.37] at (10,65,-92)
+22:13:54 | LOGIN  -> EncryptedDvjjrxv [24.232.253.37] at (41,66,65)
+22:22:30 | LOGOUT <- AgusAM after 09:16 minutes
+22:25:58 | LOGOUT <- EncryptedDvjjrxv after 12:04 minutes
+========================================== 2023-12-28 ==========================================
+00:27:59 | LOGIN  -> EncryptedDvjjrxv [24.232.253.37] at (47,66,78)
+00:29:03 | LOGOUT <- EncryptedDvjjrxv after 01:04 minutes
+00:37:26 | LOGIN  -> EncryptedDvjjrxv [24.232.253.37] at (41,66,66)
+00:37:56 | LOGOUT <- EncryptedDvjjrxv after 00:30 minutes
+00:41:14 | LOGIN  -> EncryptedDvjjrxv [24.232.253.37] at (41,66,66)
+00:41:33 | LOGOUT <- EncryptedDvjjrxv after 00:19 minutes
+00:41:54 | LOGIN  -> EncryptedDvjjrxv [24.232.253.37] at (41,66,66)
+00:43:36 | LOGOUT <- EncryptedDvjjrxv after 01:42 minutes
+00:44:09 | LOGIN  -> EncryptedDvjjrxv [24.232.253.37] at (25,79,-25)
+00:48:21 | LOGOUT <- EncryptedDvjjrxv after 04:12 minutes
+00:48:25 | LOGIN  -> EncryptedDvjjrxv [24.232.253.37] at (129,72,83)
+00:50:31 | LOGOUT <- EncryptedDvjjrxv after 02:06 minutes
+15:33:57 | LOGIN  -> Ino_7587 [82.125.222.138] at (194,74,262)
+16:39:33 | LOGOUT <- Ino_7587 after 1:05:36 minutes
+18:07:29 | LOGIN  -> Ino_7587 [151.236.172.200] at (195,74,255)
+18:08:17 | LOGOUT <- Ino_7587 after 00:48 minutes
+18:08:19 | LOGIN  -> Ino_7587 [151.236.172.200] at (192,74,248)
+18:09:12 | LOGOUT <- Ino_7587 after 00:53 minutes
+18:09:18 | LOGIN  -> Ino_7587 [151.236.172.200] at (193,74,240)
+18:13:09 | LOGIN  -> Ino_7587 [151.236.172.200] at (194,74,243)
+18:13:43 | LOGOUT <- Ino_7587 after 00:34 minutes
+18:16:28 | LOGIN  -> EncryptedDvjjrxv [151.236.172.200] at (156,75,263)
+18:17:21 | LOGOUT <- EncryptedDvjjrxv after 00:53 minutes
+19:57:22 | LOGIN  -> C_Minecraftian [151.236.172.211] at (0,67,-83)
+19:57:40 | LOGOUT <- C_Minecraftian after 00:18 minutes
+19:59:27 | LOGIN  -> FoamFromTheSea [178.135.15.214] at (-1,67,-84)
+20:00:27 | LOGIN  -> Technobladedies [151.236.172.211] at (291,65,662)
 20:00:44 | <§dTechnobladedies§f> hello
 20:00:46 | <§eFoamFromTheSea§f> hi
 20:01:00 | <§dTechnobladedies§f> you have to come
@@ -1206,8 +497,8 @@
 20:01:56 | <§eFoamFromTheSea§f> ok
 20:02:34 | <§eFoamFromTheSea§f> ok y coorfs are
 20:02:59 | <§eFoamFromTheSea§f> -110 70 -106
-20:03:18 | Technobladedies lost connection: disconnect.quitting
-20:03:24 | Technobladedies [151.236.172.211] logged in with entity id 51024 at (341.41291468015817, 63.0, 858.0797529751504)
+20:03:18 | LOGOUT <- Technobladedies after 02:51 minutes
+20:03:24 | LOGIN  -> Technobladedies [151.236.172.211] at (341,63,858)
 20:03:45 | <§eFoamFromTheSea§f> -110 70 -106 are my coords
 20:04:01 | <§dTechnobladedies§f> i can't come
 20:04:05 | <§eFoamFromTheSea§f> why
@@ -1240,8 +531,8 @@
 20:08:28 | <§eFoamFromTheSea§f> ok
 20:10:17 | <§dTechnobladedies§f> dang your slow
 20:10:24 | <§eFoamFromTheSea§f> bro dont blame me
-20:11:12 | Technobladedies lost connection: disconnect.quitting
-20:11:14 | Technobladedies [151.236.172.211] logged in with entity id 64163 at (430.51369557798444, 74.0, 1086.6434301257946)
+20:11:12 | LOGOUT <- Technobladedies after 07:48 minutes
+20:11:14 | LOGIN  -> Technobladedies [151.236.172.211] at (430,74,1086)
 20:12:03 | <§dTechnobladedies§f> actually im moving further
 20:12:06 | <§eFoamFromTheSea§f> no
 20:12:08 | <§eFoamFromTheSea§f> STAY
@@ -1274,9 +565,9 @@
 20:24:04 | <§dTechnobladedies§f> WEAR THE HAT
 20:24:07 | <§eFoamFromTheSea§f> i did
 20:24:11 | <§dTechnobladedies§f> no?
-20:24:13 | Technobladedies lost connection: disconnect.quitting
+20:24:13 | LOGOUT <- Technobladedies after 12:59 minutes
 20:24:13 | <§eFoamFromTheSea§f> yes
-20:24:15 | Technobladedies [151.236.172.211] logged in with entity id 90696 at (264.0820442186082, 96.0, 227.10706262995672)
+20:24:15 | LOGIN  -> Technobladedies [151.236.172.211] at (264,96,227)
 20:24:31 | <§dTechnobladedies§f> dang nsss server side glitch fr
 20:24:35 | <§eFoamFromTheSea§f> lol
 20:24:44 | <§eFoamFromTheSea§f> anyway whats the science of nsss
@@ -1296,13 +587,13 @@
 20:28:46 | <§eFoamFromTheSea§f> got ur stuff
 20:28:48 | <§dTechnobladedies§f> then you mix it in your body
 20:28:52 | <§dTechnobladedies§f> and shit it all out
-20:29:05 | Technobladedies lost connection: disconnect.quitting
-20:29:08 | Technobladedies [151.236.172.211] logged in with entity id 97215 at (192.2671086904461, 71.0, 199.36209735456427)
+20:29:05 | LOGOUT <- Technobladedies after 04:50 minutes
+20:29:08 | LOGIN  -> Technobladedies [151.236.172.211] at (192,71,199)
 20:29:18 | <§eFoamFromTheSea§f> come back to where u found me
 20:29:23 | <§eFoamFromTheSea§f> theres a house in the valley
 20:29:27 | <§eFoamFromTheSea§f> im in there
-20:29:48 | Technobladedies lost connection: disconnect.quitting
-20:29:52 | Technobladedies [151.236.172.211] logged in with entity id 98103 at (206.37073525165647, 73.0, 254.74019927103183)
+20:29:48 | LOGOUT <- Technobladedies after 00:40 minutes
+20:29:52 | LOGIN  -> Technobladedies [151.236.172.211] at (206,73,254)
 20:29:57 | <§dTechnobladedies§f> lag
 20:30:02 | <§eFoamFromTheSea§f> lol
 20:30:09 | <§eFoamFromTheSea§f> come to the valley where u died
@@ -1376,17 +667,17 @@
 20:40:37 | <§dTechnobladedies§f> dirt base
 20:40:48 | <§eFoamFromTheSea§f> fight me for it
 20:40:54 | <§dTechnobladedies§f> sure
-20:41:05 | FoamFromTheSea [178.135.15.214] logged in with entity id 114903 at (331.9093776108695, 76.96455249140338, 111.30809537420073)
+20:41:05 | LOGIN  -> FoamFromTheSea [178.135.15.214] at (331,76,111)
 20:41:08 | <§dTechnobladedies§f> done
 20:41:11 | <§eFoamFromTheSea§f> bruh
 20:41:17 | <§eFoamFromTheSea§f> fine u win
-20:42:03 | Technobladedies lost connection: disconnect.quitting
-20:42:05 | Technobladedies [151.236.172.211] logged in with entity id 117854 at (335.04156857532735, 76.0, 112.26761350352855)
+20:42:03 | LOGOUT <- Technobladedies after 12:11 minutes
+20:42:05 | LOGIN  -> Technobladedies [151.236.172.211] at (335,76,112)
 20:42:10 | <§dTechnobladedies§f> i will put your stuff
-20:43:02 | Technobladedies lost connection: disconnect.quitting
-20:43:06 | Technobladedies [151.236.172.211] logged in with entity id 119376 at (333.9517846093598, 75.0, 120.37594485811742)
-20:43:26 | Technobladedies lost connection: disconnect.quitting
-20:43:27 | Technobladedies [151.236.172.211] logged in with entity id 119783 at (333.55404769912053, 75.0, 117.61551574971564)
+20:43:02 | LOGOUT <- Technobladedies after 00:57 minutes
+20:43:06 | LOGIN  -> Technobladedies [151.236.172.211] at (333,75,120)
+20:43:26 | LOGOUT <- Technobladedies after 00:20 minutes
+20:43:27 | LOGIN  -> Technobladedies [151.236.172.211] at (333,75,117)
 20:45:16 | <§dTechnobladedies§f> i saw u i swear
 20:45:19 | <§dTechnobladedies§f> oh
 20:45:24 | <§eFoamFromTheSea§f> how did i lose to someone with this shit of an internete
@@ -1520,7 +811,6 @@
 21:11:57 | <§dTechnobladedies§f> dirt is a real source of power
 21:12:08 | <§dTechnobladedies§f> and you have to believe in it
 21:12:17 | <§dTechnobladedies§f> and surrender to me
-21:14:21 | /51.15.34.47:61000 lost connection
 21:16:44 | <§eFoamFromTheSea§f> OK
 21:16:50 | <§dTechnobladedies§f> relac
 21:16:53 | <§dTechnobladedies§f> surrender
@@ -1530,34 +820,30 @@
 21:17:42 | <§eFoamFromTheSea§f> HAHAHHA
 21:17:59 | <§dTechnobladedies§f> >:(
 21:18:29 | <§eFoamFromTheSea§f> I STILL WIN
-21:18:41 | Technobladedies [151.236.172.211] logged in with entity id 175220 at (-7.5, 68.62000000476837, -82.5)
-21:19:33 | Technobladedies lost connection: Disconnected: java.net.SocketTimeoutException: Read timed out
-21:20:08 | FoamFromTheSea lost connection: disconnect.quitting
-21:43:30 | EncryptedDvjjrxv [24.232.253.37] logged in with entity id 178287 at (96.0042994219732, 78.0, 266.72002535764426)
-21:43:38 | EncryptedDvjjrxv lost connection: disconnect.quitting
-22:10:47 | FoamFromTheSea [178.135.15.214] logged in with entity id 178526 at (-8.25, 77.0, -59.21875)
-22:11:56 | FoamFromTheSea lost connection: disconnect.quitting
-22:33:00 | /51.15.34.47:61000 lost connection
-================================2023-12-29================================
-02:02:06 | EncryptedDvjjrxv [24.232.253.37] logged in with entity id 187 at (96.0042994219732, 78.0, 266.72002535764426)
-02:03:49 | EncryptedDvjjrxv lost connection: disconnect.quitting
-02:54:28 | /51.15.34.47:61000 lost connection
-03:41:34 | /51.15.34.47:61000 lost connection
-06:23:46 | /51.15.34.47:61000 lost connection
-09:56:13 | FoamFromTheSea [178.135.15.141] logged in with entity id 149 at (6.990474558387623, 65.0, -81.79862536014421)
-09:57:00 | FoamFromTheSea lost connection: disconnect.quitting
-10:01:34 | FoamFromTheSea [178.135.15.141] logged in with entity id 2960 at (-12.5625, 66.0, -90.8125)
-10:03:43 | FoamFromTheSea lost connection: disconnect.quitting
-10:39:43 | FoamFromTheSea [178.135.15.141] logged in with entity id 4934 at (-13.3125, 62.0, -98.3125)
+21:18:41 | LOGIN  -> Technobladedies [151.236.172.211] at (-7,68,-82)
+21:19:33 | LOGOUT <- Technobladedies after 00:52 minutes
+21:20:08 | LOGOUT <- FoamFromTheSea after 39:03 minutes
+21:43:30 | LOGIN  -> EncryptedDvjjrxv [24.232.253.37] at (96,78,266)
+21:43:38 | LOGOUT <- EncryptedDvjjrxv after 00:08 minutes
+22:10:47 | LOGIN  -> FoamFromTheSea [178.135.15.214] at (-8,77,-59)
+22:11:56 | LOGOUT <- FoamFromTheSea after 01:09 minutes
+========================================== 2023-12-29 ==========================================
+02:02:06 | LOGIN  -> EncryptedDvjjrxv [24.232.253.37] at (96,78,266)
+02:03:49 | LOGOUT <- EncryptedDvjjrxv after 01:43 minutes
+09:56:13 | LOGIN  -> FoamFromTheSea [178.135.15.141] at (6,65,-81)
+09:57:00 | LOGOUT <- FoamFromTheSea after 00:47 minutes
+10:01:34 | LOGIN  -> FoamFromTheSea [178.135.15.141] at (-12,66,-90)
+10:03:43 | LOGOUT <- FoamFromTheSea after 02:09 minutes
+10:39:43 | LOGIN  -> FoamFromTheSea [178.135.15.141] at (-13,62,-98)
 10:41:29 | FoamFromTheSea tried command: give 5 65
-11:14:43 | Stevus [151.236.172.247] logged in with entity id 41237 at (-165.34796111613187, 76.0, -88.49704258873624)
+11:14:43 | LOGIN  -> Stevus [151.236.172.247] at (-165,76,-88)
 11:14:50 | <§eFoamFromTheSea§f> hey there
 11:15:04 | <§dStevus§f> bruh
 11:15:09 | <§eFoamFromTheSea§f> huh
 11:15:19 | <§dStevus§f> the last thing i expected is u here lol
-11:15:25 | Stevus lost connection: disconnect.quitting
+11:15:25 | LOGOUT <- Stevus after 00:42 minutes
 11:15:30 | <§eFoamFromTheSea§f> what
-11:15:45 | Technobladedies [151.236.172.247] logged in with entity id 43169 at (-7.5, 67.0, -82.5)
+11:15:45 | LOGIN  -> Technobladedies [151.236.172.247] at (-7,67,-82)
 11:15:52 | <§eFoamFromTheSea§f> LMFAO
 11:15:59 | <§dTechnobladedies§f> lol
 11:16:06 | <§dTechnobladedies§f> where tf u at
@@ -1598,8 +884,8 @@
 11:23:30 | <§dTechnobladedies§f> i already fucked up with them
 11:23:34 | <§eFoamFromTheSea§f> huh
 11:23:40 | <§dTechnobladedies§f> watch this
-11:23:42 | Technobladedies lost connection: disconnect.quitting
-11:23:56 | EncryptedDvjjrxv [151.236.172.247] logged in with entity id 55620 at (31.090280001952312, 85.0, 44.72103722150409)
+11:23:42 | LOGOUT <- Technobladedies after 07:57 minutes
+11:23:56 | LOGIN  -> EncryptedDvjjrxv [151.236.172.247] at (31,85,44)
 11:24:06 | <§aEncryptedDvjjrxv§f> hi
 11:24:11 | <§eFoamFromTheSea§f> hi
 11:24:25 | <§aEncryptedDvjjrxv§f> this is one of the members in here
@@ -1619,18 +905,18 @@
 11:25:37 | <§eFoamFromTheSea§f> whyd u burn it u couldve kept it to urself
 11:25:44 | <§aEncryptedDvjjrxv§f> ye i was stupid
 11:26:08 | <§eFoamFromTheSea§f> oki but acc dont do that that could ruin the server
-11:26:17 | EncryptedDvjjrxv lost connection: disconnect.quitting
+11:26:17 | LOGOUT <- EncryptedDvjjrxv after 02:21 minutes
 11:26:26 | FoamFromTheSea tried command: give sand
 11:26:32 | FoamFromTheSea tried command: give sand
 11:26:38 | FoamFromTheSea tried command: give sand 64
-11:26:39 | Ino_7587 [151.236.172.247] logged in with entity id 57637 at (194.4346923645514, 74.0, 243.02056543643025)
+11:26:39 | LOGIN  -> Ino_7587 [151.236.172.247] at (194,74,243)
 11:26:49 | <§eFoamFromTheSea§f> bro
 11:26:54 | <§eFoamFromTheSea§f> stop doing that
 11:26:55 | <§6Ino_7587§f> sup
 11:27:11 | <§eFoamFromTheSea§f> that could actually ruin the server bro
 11:27:23 | <§eFoamFromTheSea§f> BRO
-11:27:24 | Ino_7587 lost connection: disconnect.endOfStream
-11:27:35 | Technobladedies [151.236.172.247] logged in with entity id 58441 at (-8.810049321104316, 78.0, -18.649081415123298)
+11:27:24 | LOGOUT <- Ino_7587 after 00:45 minutes
+11:27:35 | LOGIN  -> Technobladedies [151.236.172.247] at (-8,78,-18)
 11:27:47 | <§dTechnobladedies§f> anyway
 11:27:48 | <§eFoamFromTheSea§f> ok stop
 11:28:07 | <§dTechnobladedies§f> how would it ruin the server
@@ -1686,13 +972,12 @@
 11:38:13 | <§eFoamFromTheSea§f> u stop
 11:38:18 | <§eFoamFromTheSea§f> pls
 11:38:54 | <§eFoamFromTheSea§f> we can be the good guys
-11:39:19 | Technobladedies lost connection: disconnect.quitting
-11:39:20 | Technobladedies [151.236.172.247] logged in with entity id 88148 at (52.03125, 76.0, -2.40625)
-11:40:02 | Technobladedies [151.236.172.247] logged in with entity id 89256 at (52.03125, 76.0, -2.40625)
+11:39:19 | LOGOUT <- Technobladedies after 11:44 minutes
+11:39:20 | LOGIN  -> Technobladedies [151.236.172.247] at (52,76,-2)
+11:40:02 | LOGIN  -> Technobladedies [151.236.172.247] at (52,76,-2)
 11:40:08 | <§eFoamFromTheSea§f> bruh
-11:40:32 | Technobladedies lost connection: Disconnected: java.net.SocketTimeoutException: Read timed out
-11:41:03 | Technobladedies [151.236.172.247] logged in with entity id 91651 at (52.03125, 76.0, -2.40625)
-11:41:05 | /151.236.172.247:56552 lost connection
+11:40:32 | LOGOUT <- Technobladedies after 00:30 minutes
+11:41:03 | LOGIN  -> Technobladedies [151.236.172.247] at (52,76,-2)
 11:41:38 | <§dTechnobladedies§f> hi
 11:41:41 | <§eFoamFromTheSea§f> henlo
 11:41:46 | <§dTechnobladedies§f> im dead?
@@ -1801,8 +1086,8 @@
 12:00:54 | <§dTechnobladedies§f> found u
 12:00:55 | <§eFoamFromTheSea§f> hey m,an
 12:01:01 | <§eFoamFromTheSea§f> wanna make a deal
-12:01:16 | Technobladedies lost connection: disconnect.quitting
-12:01:18 | Technobladedies [151.236.172.247] logged in with entity id 141126 at (41.718525409720684, 74.0, -77.3109220880632)
+12:01:16 | LOGOUT <- Technobladedies after 20:13 minutes
+12:01:18 | LOGIN  -> Technobladedies [151.236.172.247] at (41,74,-77)
 12:01:38 | <§dTechnobladedies§f> stop running away
 12:01:45 | <§eFoamFromTheSea§f> stop tying to kill me
 12:02:40 | <§eFoamFromTheSea§f> ok pls
@@ -1844,41 +1129,29 @@
 12:08:22 | <§dTechnobladedies§f> good
 12:08:30 | <§eFoamFromTheSea§f> now leave
 12:10:08 | <§dTechnobladedies§f> i gtg
-12:10:10 | Technobladedies lost connection: disconnect.quitting
+12:10:10 | LOGOUT <- Technobladedies after 08:52 minutes
 12:10:11 | <§eFoamFromTheSea§f> oki
-12:10:21 | FoamFromTheSea lost connection: disconnect.quitting
-12:59:44 | /51.15.34.47:61000 lost connection
-16:01:34 | /51.15.34.47:61000 lost connection
-16:27:50 | /51.15.34.47:61000 lost connection
-18:44:09 | /51.15.34.47:61000 lost connection
-21:39:46 | /51.15.34.47:61000 lost connection
-================================2023-12-30================================
-04:11:04 | Nitpick [69.178.30.70] logged in with entity id 228 at (156.53225556757263, 93.0, 18.784875495306117)
-04:11:22 | Nitpick lost connection: disconnect.quitting
-05:08:55 | /51.15.34.47:61000 lost connection
-09:04:31 | /51.15.34.47:61000 lost connection
-13:55:11 | /51.15.34.47:61000 lost connection
-20:13:08 | /51.15.34.47:61000 lost connection
-================================2023-12-31================================
-01:59:37 | /51.15.34.47:61000 lost connection
-07:24:45 | /51.15.34.47:61000 lost connection
-09:30:28 | /51.15.34.47:61000 lost connection
-10:08:22 | Karkarox [83.24.186.125] logged in with entity id 130 at (10.6875, 91.0, -64.84375)
-10:08:33 | Karkarox lost connection: disconnect.quitting
-10:13:51 | Karkarox [83.24.186.125] logged in with entity id 875 at (10.6875, 91.0, -64.84375)
-10:23:25 | Karkarox lost connection: disconnect.quitting
-10:25:21 | Karkarox [83.24.186.125] logged in with entity id 16852 at (31.514598041615535, 85.0, 39.881414257124135)
-10:44:23 | Karkarox lost connection: disconnect.quitting
-10:56:36 | Karkarox [83.24.186.125] logged in with entity id 52603 at (202.90413504674603, 71.0, 211.21278387344026)
-11:03:48 | Karkarox lost connection: disconnect.quitting
-11:13:43 | Karkarox [83.24.186.125] logged in with entity id 64464 at (151.50134646509113, 70.0, 143.17564499391767)
-11:23:28 | Karkarox lost connection: disconnect.quitting
-14:58:54 | FiverValley [86.172.72.222] logged in with entity id 80881 at (-11.7945956513144, 67.0, -81.59568314485796)
+12:10:21 | LOGOUT <- FoamFromTheSea after 1:30:38 minutes
+========================================== 2023-12-30 ==========================================
+04:11:04 | LOGIN  -> Nitpick [69.178.30.70] at (156,93,18)
+04:11:22 | LOGOUT <- Nitpick after 00:18 minutes
+========================================== 2023-12-31 ==========================================
+10:08:22 | LOGIN  -> Karkarox [83.24.186.125] at (10,91,-64)
+10:08:33 | LOGOUT <- Karkarox after 00:11 minutes
+10:13:51 | LOGIN  -> Karkarox [83.24.186.125] at (10,91,-64)
+10:23:25 | LOGOUT <- Karkarox after 09:34 minutes
+10:25:21 | LOGIN  -> Karkarox [83.24.186.125] at (31,85,39)
+10:44:23 | LOGOUT <- Karkarox after 19:02 minutes
+10:56:36 | LOGIN  -> Karkarox [83.24.186.125] at (202,71,211)
+11:03:48 | LOGOUT <- Karkarox after 07:12 minutes
+11:13:43 | LOGIN  -> Karkarox [83.24.186.125] at (151,70,143)
+11:23:28 | LOGOUT <- Karkarox after 09:45 minutes
+14:58:54 | LOGIN  -> FiverValley [86.172.72.222] at (-11,67,-81)
 14:59:21 | FiverValley tried command: op
 14:59:25 | FiverValley tried command: help
-15:00:33 | FiverValley lost connection: Disconnected: java.net.SocketException: Connection reset
-15:00:56 | FiverValley [86.172.72.222] logged in with entity id 88143 at (42.622413681535164, 78.0, -29.36369446136897)
-15:01:35 | FiverValley lost connection: Disconnected: java.net.SocketException: Connection reset
-15:01:49 | FiverValley [86.172.72.222] logged in with entity id 89807 at (41.3984093862544, 78.6212968405392, -24.84403139955531)
-15:02:49 | FiverValley lost connection: Disconnected: java.net.SocketException: Connection reset
-15:41:12 | Ino_7587 [82.125.222.138] logged in with entity id 92489 at (192.81070902206548, 74.0, 252.78016218241652)
+15:00:33 | LOGOUT <- FiverValley after 01:39 minutes
+15:00:56 | LOGIN  -> FiverValley [86.172.72.222] at (42,78,-29)
+15:01:35 | LOGOUT <- FiverValley after 00:39 minutes
+15:01:49 | LOGIN  -> FiverValley [86.172.72.222] at (41,78,-24)
+15:02:49 | LOGOUT <- FiverValley after 01:00 minutes
+15:41:12 | LOGIN  -> Ino_7587 [82.125.222.138] at (192,74,252)
