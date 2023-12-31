@@ -32,6 +32,7 @@ print("Begin filtration")
 
 found_illegal = False
 day_timestamp = ""
+iteration = 0
 for line in raw_lines:
     # check if the line should be filtered out
     for item in filter:
@@ -44,10 +45,22 @@ for line in raw_lines:
             day_timestamp = line[:10]
             cleaned_lines.append("================================{}================================\n".format(day_timestamp))
 
-
         edit_str = line[11:]
         edit_str = edit_str.replace("[INFO]", "|")
+        edit_str = edit_str.replace("[/", "[")
+
+        # remove port from end of IP addresses
+        IP_pos = edit_str.find("[", 11)
+        port_pos = edit_str.find(":", IP_pos)
+        port_end_pos = edit_str.find("]", port_pos)
+        if port_pos != -1:
+            port = edit_str[port_pos:port_end_pos]
+            if port[1:].isnumeric() and port[0] == ":":
+                edit_str = edit_str.replace(port, "")
+
         cleaned_lines.append(edit_str)
+
+        iteration += 1
 
     found_illegal = False
 
