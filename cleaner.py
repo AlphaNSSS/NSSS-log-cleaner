@@ -2,10 +2,11 @@ import datetime
 
 raw_time_start = 11
 raw_line_start = 27
-line_start = 11
+time_end = 9
+line_start = 17
 
 def clean_ports_from_IP(text: str):
-    IP_pos = text.find("[", line_start)
+    IP_pos = text.find("[", time_end)
     port_pos = text.find(":", IP_pos)
     port_end_pos = text.find("]", port_pos)
     if port_pos != -1:
@@ -15,9 +16,9 @@ def clean_ports_from_IP(text: str):
     return text
 
 def check_for_IP_at_index(text: str, index: int):
-    IP_index = text.find("/", line_start)
+    IP_index = text.find("/", time_end)
     if IP_index != -1:
-        IP_str = text[IP_index:IP_index+3]
+        IP_str = text[IP_index:IP_index + 3]
         if IP_str[1:].isnumeric() and IP_str[0] == "/":
             return IP_index == index
     return False
@@ -25,11 +26,11 @@ def check_for_IP_at_index(text: str, index: int):
 def clean_login(text: str, raw_text: str):
     coords = []
 
-    username_index = line_start
+    username_index = time_end
     username_end_index = text.find(" ", username_index)
     username_IP_end_index = text.find("]", username_index) + 1
 
-    coord_start_index = text.find("(", line_start) + 1
+    coord_start_index = text.find("(", time_end) + 1
     for i in range(3):
         coord_end = text.find(".", coord_start_index)
         coords.append(text[coord_start_index:coord_end])
@@ -45,13 +46,13 @@ def clean_login(text: str, raw_text: str):
     hour = int(text[:2])
     minute = int(text[3:5])
     second = int(text[6:8])
-    players_logon_times[username] = datetime.datetime(year = year, month = month, day = day, hour = hour, minute = minute, second = second)
+    players_login_times[username] = datetime.datetime(year = year, month = month, day = day, hour = hour, minute = minute, second = second)
 
-    clean_text = text[:line_start] + "LOGIN  -> " + username_IP + " at ({},{},{})\n".format(coords[0], coords[1], coords[2])
+    clean_text = text[:time_end] + "  LOGIN " + username_IP + " at ({},{},{})\n".format(coords[0], coords[1], coords[2])
     return clean_text
 
 def clean_logout(text: str, raw_text: str):
-    username_index = line_start
+    username_index = time_end
     username_end_index = text.find(" ", username_index)
     username = text[username_index:username_end_index]
 
@@ -62,15 +63,42 @@ def clean_logout(text: str, raw_text: str):
     minute = int(text[3:5])
     second = int(text[6:8])
     current_time = datetime.datetime(year = year, month = month, day = day, hour = hour, minute = minute, second = second)
-    time_spent = current_time - players_logon_times[username]
+    time_spent = current_time - players_login_times[username]
     time_spent = str(time_spent)
     if time_spent[0] == "0":
         time_spent = time_spent[2:]
 
-    players_logon_times.pop(username)
+    players_login_times.pop(username)
 
-    clean_text = text[:line_start] + "LOGOUT <- " + username + " after {} minutes\n".format(time_spent)
+    clean_text = text[:time_end] + " LOGOUT " + username + " after {} minutes\n".format(time_spent)
     return clean_text
+
+def clean_chat(text: str):
+    opening_bracket_pos = text.find("<", line_start)
+    closing_bracket_pos = text.find(">", line_start)
+    if opening_bracket_pos != -1 and closing_bracket_pos != -1:
+        # get longest name and center conversation around that
+        longest_name = 0
+        for player_name in players_login_times:
+            length = player_name.__len__()
+            if longest_name < length:
+                longest_name = length
+
+        opening_bracket_garbage = text[opening_bracket_pos:opening_bracket_pos + 4]
+        closing_bracket_garbage = text[closing_bracket_pos - 3:closing_bracket_pos + 2]
+
+        username = text[opening_bracket_pos:closing_bracket_pos + 2]
+        username = username.replace(opening_bracket_garbage, "")
+        username = username.replace(closing_bracket_garbage, "")
+        missing_length = longest_name - username.__len__()
+
+        compensation = ""
+        for i in range(missing_length):
+            compensation = compensation.__add__(" ")
+
+        text = text.replace(opening_bracket_garbage, "- " + compensation)
+        text = text.replace(closing_bracket_garbage, ": ")
+    return text
 
 
 filter = [
@@ -102,7 +130,7 @@ cleaned_lines = []
 
 print("Begin filtration")
 
-players_logon_times = {}
+players_login_times = {}
 day_timestamp = ""
 iteration = 0
 for line in raw_lines:
@@ -115,18 +143,21 @@ for line in raw_lines:
 
     # what should be done if it's not filtered out
     if not found_illegal:
-        if day_timestamp != line[:line_start - 1]:
-            day_timestamp = line[:line_start - 1]
+        if day_timestamp != line[:raw_time_start - 1]:
+            day_timestamp = line[:raw_time_start - 1]
             cleaned_lines.append("========================================== {} ==========================================\n".format(day_timestamp))
 
         clean_line = line[raw_time_start:]
-        clean_line = clean_line.replace("[INFO]", "|")
+        clean_line = clean_line.replace("[INFO] ", "")
         clean_line = clean_ports_from_IP(clean_line)
 
         if clean_line.__contains__("logged in with entity id"):
             clean_line = clean_login(clean_line, line)
-        if clean_line.__contains__("lost connection"):
+        elif clean_line.__contains__("lost connection"):
             clean_line = clean_logout(clean_line, line)
+        else:
+            clean_line = clean_line[:time_end] + "        " + clean_line[time_end:]
+            clean_line = clean_chat(clean_line)
 
         cleaned_lines.append(clean_line)
 
