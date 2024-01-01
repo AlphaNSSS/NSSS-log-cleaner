@@ -48,7 +48,7 @@ def clean_login(text: str, raw_text: str):
     second = int(text[6:8])
     players_login_times[username] = datetime.datetime(year = year, month = month, day = day, hour = hour, minute = minute, second = second)
 
-    clean_text = text[:time_end] + "  LOGIN " + username_IP + " at ({},{},{})\n".format(coords[0], coords[1], coords[2])
+    clean_text = text[:time_end] + "  LOGIN " + username_IP + " at X:{}, Y:{}, Z:{}\n".format(coords[0], coords[1], coords[2])
     return clean_text
 
 def clean_logout(text: str, raw_text: str):
@@ -70,7 +70,7 @@ def clean_logout(text: str, raw_text: str):
 
     players_login_times.pop(username)
 
-    clean_text = text[:time_end] + " LOGOUT " + username + " after {} minutes\n".format(time_spent)
+    clean_text = text[:time_end] + " LOGOUT " + username + " after {}\n".format(time_spent)
     return clean_text
 
 def clean_chat(text: str):
@@ -100,6 +100,27 @@ def clean_chat(text: str):
         text = text.replace(closing_bracket_garbage, ": ")
     return text
 
+def clean_try_command(text: str):
+    username_index = time_end
+    username_end_index = text.find(" ", username_index)
+    username = text[username_index:username_end_index]
+
+    command_index = text.find(":", username_end_index) + 2
+    end_of_the_line = text.__len__() - 1 # end of the line, pal
+
+    clean_text = text[:time_end] + "    CMD " + username + " tried /" + text[command_index:end_of_the_line] + " (failed)\n"
+    return clean_text
+
+def clean_command(text: str):
+    username_index = time_end
+    username_end_index = text.find(" ", username_index)
+    username = text[username_index:username_end_index]
+
+    command_index = text.find(":", username_end_index) + 2
+    end_of_the_line = text.__len__() - 1
+
+    clean_text = text[:time_end] + "    CMD " + username + " issued /" + text[command_index:end_of_the_line] + " (success)\n"
+    return clean_text
 
 filter = [
     "Unknown console command.",
@@ -143,9 +164,14 @@ for line in raw_lines:
 
     # what should be done if it's not filtered out
     if not found_illegal:
-        if day_timestamp != line[:raw_time_start - 1]:
+        if cleaned_lines.__len__() == 0:
             day_timestamp = line[:raw_time_start - 1]
-            cleaned_lines.append("========================================== {} ==========================================\n".format(day_timestamp))
+            cleaned_lines.append("========================================== {} ==========================================\n\n".format(day_timestamp))
+        elif players_login_times.__len__() == 0:
+            cleaned_lines.append("\n")
+            if day_timestamp != line[:raw_time_start - 1]:
+                day_timestamp = line[:raw_time_start - 1]
+                cleaned_lines.append("========================================== {} ==========================================\n\n".format(day_timestamp))
 
         clean_line = line[raw_time_start:]
         clean_line = clean_line.replace("[INFO] ", "")
@@ -155,6 +181,10 @@ for line in raw_lines:
             clean_line = clean_login(clean_line, line)
         elif clean_line.__contains__("lost connection"):
             clean_line = clean_logout(clean_line, line)
+        elif clean_line.__contains__("tried command"):
+            clean_line = clean_try_command(clean_line)
+        elif clean_line.__contains__("issued server command"):
+            clean_line = clean_command(clean_line)
         else:
             clean_line = clean_line[:time_end] + "        " + clean_line[time_end:]
             clean_line = clean_chat(clean_line)
