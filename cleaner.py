@@ -64,16 +64,23 @@ def clean_logout(text: str, raw_text: str):
     second = int(text[6:8])
     current_time = datetime.datetime(year = year, month = month, day = day, hour = hour, minute = minute, second = second)
     time_spent = current_time - players_login_times[username]
-    time_spent = str(time_spent)
-    if time_spent[0] == "0":
-        time_spent = time_spent[2:]
+    full_seconds_spent = int(time_spent.total_seconds())
+    hours_spent = full_seconds_spent // 3600
+    minutes_spent = (full_seconds_spent % 3600) // 60
+    seconds_spent = full_seconds_spent % 60
+    if full_seconds_spent < 120:
+        time_spent = str(full_seconds_spent) + "s"
+    elif full_seconds_spent < 6000:
+        time_spent = str(minutes_spent) + "min"
+    else:
+        time_spent = "{}h {}min".format(hours_spent, minutes_spent)
 
     players_login_times.pop(username)
 
     clean_text = text[:time_end] + " LOGOUT " + username + " after {}\n".format(time_spent)
     return clean_text
 
-def clean_chat(text: str):
+def clean_chat(text: str, last_username: str):
     opening_bracket_pos = text.find("<", line_start)
     closing_bracket_pos = text.find(">", line_start)
     if opening_bracket_pos != -1 and closing_bracket_pos != -1:
@@ -90,15 +97,34 @@ def clean_chat(text: str):
         username = text[opening_bracket_pos:closing_bracket_pos + 2]
         username = username.replace(opening_bracket_garbage, "")
         username = username.replace(closing_bracket_garbage, "")
+
+        invisible = False
+        if last_username == username:
+            invisible = True
+        else:
+            last_username = username
+
         missing_length = longest_name - username.__len__()
 
         compensation = ""
         for i in range(missing_length):
             compensation = compensation.__add__(" ")
 
-        text = text.replace(opening_bracket_garbage, "- " + compensation)
-        text = text.replace(closing_bracket_garbage, ": ")
-    return text
+        if not invisible:
+            text = text.replace(opening_bracket_garbage, "- " + compensation)
+            text = text.replace(closing_bracket_garbage, ": ")
+        else:
+            text = text.replace(opening_bracket_garbage, "  " + compensation)
+            text = text.replace(closing_bracket_garbage, "- ")
+
+        if invisible:
+            inv_compensation = ""
+            for i in range(username.__len__()):
+                inv_compensation = inv_compensation.__add__(" ")
+
+            text = text.replace(username, inv_compensation)
+
+    return text, last_username
 
 def clean_try_command(text: str):
     username_index = time_end
@@ -152,8 +178,10 @@ cleaned_lines = []
 print("Begin filtration")
 
 players_login_times = {}
+last_chatter = ""
 day_timestamp = ""
 iteration = 0
+keep_last_chatter = False
 for line in raw_lines:
     # check if the line should be filtered out
     found_illegal = False
@@ -164,6 +192,8 @@ for line in raw_lines:
 
     # what should be done if it's not filtered out
     if not found_illegal:
+        keep_last_chatter = False
+
         if cleaned_lines.__len__() == 0:
             day_timestamp = line[:raw_time_start - 1]
             cleaned_lines.append("========================================== {} ==========================================\n\n".format(day_timestamp))
@@ -187,9 +217,13 @@ for line in raw_lines:
             clean_line = clean_command(clean_line)
         else:
             clean_line = clean_line[:time_end] + "        " + clean_line[time_end:]
-            clean_line = clean_chat(clean_line)
+            clean_line, last_chatter = clean_chat(clean_line, last_chatter)
+            keep_last_chatter = True
 
         cleaned_lines.append(clean_line)
+
+        if not keep_last_chatter:
+            last_chatter = ""
 
         iteration += 1
 
