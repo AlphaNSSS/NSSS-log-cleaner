@@ -48,7 +48,7 @@ def clean_login(text: str, raw_text: str):
     second = int(text[6:8])
     players_login_times[username] = datetime.datetime(year = year, month = month, day = day, hour = hour, minute = minute, second = second)
 
-    clean_text = text[:time_end] + "  LOGIN " + username_IP + " at X:{}, Y:{}, Z:{}\n".format(coords[0], coords[1], coords[2])
+    clean_text = text[:time_end] + "  LOGIN " + username_IP + " at X:{} Y:{} Z:{}\n".format(coords[0], coords[1], coords[2])
     return clean_text
 
 def clean_logout(text: str, raw_text: str):
