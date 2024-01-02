@@ -181,7 +181,7 @@ for line in raw_lines:
     found_illegal = False
     for item in filter:
         low_line = line.lower()
-        if low_line.find(item.lower()) or check_for_IP_at_index(low_line, raw_line_start):
+        if item.lower() in low_line or check_for_IP_at_index(low_line, raw_line_start):
             found_illegal = True
             break
 
@@ -202,13 +202,13 @@ for line in raw_lines:
         clean_line = clean_line.replace("[INFO] ", "")
         clean_line = clean_ports_from_IP(clean_line)
 
-        if clean_line.find("logged in with entity id"):
+        if "logged in with entity id" in clean_line:
             clean_line = clean_login(clean_line, line)
-        elif clean_line.find("lost connection"):
+        elif "lost connection" in clean_line:
             clean_line = clean_logout(clean_line, line)
-        elif clean_line.find("tried command"):
+        elif "tried command" in clean_line:
             clean_line = clean_try_command(clean_line)
-        elif clean_line.find("issued server command"):
+        elif "issued server command" in clean_line:
             clean_line = clean_command(clean_line)
         else:
             clean_line = clean_line[:time_end] + "        " + clean_line[time_end:]
