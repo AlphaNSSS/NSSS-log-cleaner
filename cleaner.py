@@ -1,4 +1,6 @@
+from os.path import exists
 import datetime
+import json
 
 raw_time_start = 11
 raw_line_start = 27
@@ -67,7 +69,6 @@ def clean_logout(text: str, raw_text: str):
     full_seconds_spent = int(time_spent.total_seconds())
     hours_spent = full_seconds_spent // 3600
     minutes_spent = (full_seconds_spent % 3600) // 60
-    seconds_spent = full_seconds_spent % 60
     if full_seconds_spent < 120:
         time_spent = str(full_seconds_spent) + "s"
     elif full_seconds_spent < 6000:
@@ -134,7 +135,7 @@ def clean_try_command(text: str):
     command_index = text.find(":", username_end_index) + 2
     end_of_the_line = text.__len__() - 1 # end of the line, pal
 
-    clean_text = text[:time_end] + "    CMD " + username + " tried /" + text[command_index:end_of_the_line] + " (failed)\n"
+    clean_text = text[:time_end] + "!!! CMD " + username + " tried /" + text[command_index:end_of_the_line] + " (failed)\n"
     return clean_text
 
 def clean_command(text: str):
@@ -145,35 +146,29 @@ def clean_command(text: str):
     command_index = text.find(":", username_end_index) + 2
     end_of_the_line = text.__len__() - 1
 
-    clean_text = text[:time_end] + "    CMD " + username + " issued /" + text[command_index:end_of_the_line] + " (success)\n"
+    clean_text = text[:time_end] + "!!! CMD " + username + " issued /" + text[command_index:end_of_the_line] + " (success)\n"
     return clean_text
 
-filter = [
-    "Unknown console command.",
-    "Starting NSSS server",
-    "Loading properties",
-    "Starting Minecraft server on",
-    "WARNING",
-    "Preparing level",
-    "Preparing start region for",
-    "For help, type",
-    "Stopping server",
-    "Saving chunks",
-    "Forcing save",
-    "Save complete",
-    "Stopping the server",
-    "Uwaga",
-    "Maxcraft",
-    "Disconnecting"
-]
+
+raw_log = input("Enter log file path: ")
+if raw_log[raw_log.__len__() - 4:] != ".log":
+    print("ERROR: This isn't even a log file! Enter a valid one.")
+    print("Exiting program...")
+    exit()
 
 print("Opening files...")
 
-raw_log = open('server.log', 'r')
-cleaned_log = open('cleaned.log', 'w')
+filter = open("filters.json", "r")
+filter = filter.read() # Read file as plaintext
+filter = json.loads(filter) # Turn plaintext into dictionary
+
+raw_log = open(raw_log, "r")
+cleaned_log = open("cleaned.log", "w")
 
 raw_lines = raw_log.readlines()
-cleaned_lines = []
+cleaned_lines = [
+    "Log cleaned at {}\n".format(datetime.datetime.now())
+]
 
 print("Begin filtration")
 
