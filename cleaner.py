@@ -1,4 +1,4 @@
-import datetime
+from datetime import datetime
 import json
 
 raw_time_start = 11
@@ -47,7 +47,7 @@ def clean_login(text: str, raw_text: str):
     hour = int(text[:2])
     minute = int(text[3:5])
     second = int(text[6:8])
-    players_login_times[username] = datetime.datetime(year = year, month = month, day = day, hour = hour, minute = minute, second = second)
+    players_login_times[username] = datetime(year = year, month = month, day = day, hour = hour, minute = minute, second = second)
 
     clean_text = text[:time_end] + "  LOGIN " + username_IP + " at X:{} Y:{} Z:{}\n".format(coords[0], coords[1], coords[2])
     return clean_text
@@ -63,7 +63,7 @@ def clean_logout(text: str, raw_text: str):
     hour = int(text[:2])
     minute = int(text[3:5])
     second = int(text[6:8])
-    current_time = datetime.datetime(year = year, month = month, day = day, hour = hour, minute = minute, second = second)
+    current_time = datetime(year = year, month = month, day = day, hour = hour, minute = minute, second = second)
     time_spent = current_time - players_login_times[username]
     full_seconds_spent = int(time_spent.total_seconds())
     hours_spent = full_seconds_spent // 3600
@@ -150,23 +150,24 @@ def clean_command(text: str):
 
 
 raw_log = input("Enter log file path: ")
-if raw_log[len(raw_log) - 4:] != ".log":
+if not raw_log.endswith(".log"):
     print("ERROR: This isn't even a log file! Enter a valid one.")
     print("Exiting program...")
     exit()
 
 print("Opening files...")
 
-filter = open("filters.json", "r")
-filter = filter.read() # Read file as plaintext
-filter = json.loads(filter) # Turn plaintext into dictionary
+filter = {}
+with open("filters.json", "r") as file:
+    filter = file.read() # Read file as plaintext
+    filter = json.loads(filter) # Turn plaintext into dictionary
 
 raw_log = open(raw_log, "r")
 cleaned_log = open("cleaned.log", "w")
 
 raw_lines = raw_log.readlines()
 cleaned_lines = [
-    "Log cleaned at {}\n".format(datetime.datetime.now())
+    "Log cleaned at {}\n".format(datetime.now())
 ]
 
 print("Begin filtration")
