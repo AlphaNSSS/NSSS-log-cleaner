@@ -189,10 +189,7 @@ for line in raw_lines:
     if not found_illegal:
         keep_last_chatter = False
 
-        if len(cleaned_lines) == 0:
-            day_timestamp = line[:raw_time_start - 1]
-            cleaned_lines.append("========================================== {} ==========================================\n\n".format(day_timestamp))
-        elif len(players_login_times) == 0:
+        if len(players_login_times) == 0:
             cleaned_lines.append("\n")
             if day_timestamp != line[:raw_time_start - 1]:
                 day_timestamp = line[:raw_time_start - 1]
