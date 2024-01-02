@@ -182,6 +182,7 @@ for line in raw_lines:
         low_line = line.lower()
         if low_line.find(item.lower()) or check_for_IP_at_index(low_line, raw_line_start):
             found_illegal = True
+            break
 
     # what should be done if it's not filtered out
     if not found_illegal:
