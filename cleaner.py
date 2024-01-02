@@ -1,4 +1,3 @@
-from os.path import exists
 import datetime
 import json
 
@@ -88,7 +87,7 @@ def clean_chat(text: str, last_username: str):
         # get longest name and center conversation around that
         longest_name = 0
         for player_name in players_login_times:
-            length = player_name.__len__()
+            length = len(player_name)
             if longest_name < length:
                 longest_name = length
 
@@ -105,11 +104,11 @@ def clean_chat(text: str, last_username: str):
         else:
             last_username = username
 
-        missing_length = longest_name - username.__len__()
+        missing_length = longest_name - len(username)
 
         compensation = ""
         for i in range(missing_length):
-            compensation = compensation.__add__(" ")
+            compensation += " "
 
         if not invisible:
             text = text.replace(opening_bracket_garbage, "- " + compensation)
@@ -120,8 +119,8 @@ def clean_chat(text: str, last_username: str):
 
         if invisible:
             inv_compensation = ""
-            for i in range(username.__len__()):
-                inv_compensation = inv_compensation.__add__(" ")
+            for i in range(len(username)):
+                inv_compensation += " "
 
             text = text.replace(username, inv_compensation)
 
@@ -133,7 +132,7 @@ def clean_try_command(text: str):
     username = text[username_index:username_end_index]
 
     command_index = text.find(":", username_end_index) + 2
-    end_of_the_line = text.__len__() - 1 # end of the line, pal
+    end_of_the_line = len(text) - 1 # end of the line, pal
 
     clean_text = text[:time_end] + "!!! CMD " + username + " tried /" + text[command_index:end_of_the_line] + " (failed)\n"
     return clean_text
@@ -144,14 +143,14 @@ def clean_command(text: str):
     username = text[username_index:username_end_index]
 
     command_index = text.find(":", username_end_index) + 2
-    end_of_the_line = text.__len__() - 1
+    end_of_the_line = len(text) - 1
 
     clean_text = text[:time_end] + "!!! CMD " + username + " issued /" + text[command_index:end_of_the_line] + " (success)\n"
     return clean_text
 
 
 raw_log = input("Enter log file path: ")
-if raw_log[raw_log.__len__() - 4:] != ".log":
+if raw_log[len(raw_log) - 4:] != ".log":
     print("ERROR: This isn't even a log file! Enter a valid one.")
     print("Exiting program...")
     exit()
@@ -175,24 +174,23 @@ print("Begin filtration")
 players_login_times = {}
 last_chatter = ""
 day_timestamp = ""
-iteration = 0
 keep_last_chatter = False
 for line in raw_lines:
     # check if the line should be filtered out
     found_illegal = False
     for item in filter:
         low_line = line.lower()
-        if low_line.__contains__(item.lower()) or check_for_IP_at_index(low_line, raw_line_start):
+        if low_line.find(item.lower()) or check_for_IP_at_index(low_line, raw_line_start):
             found_illegal = True
 
     # what should be done if it's not filtered out
     if not found_illegal:
         keep_last_chatter = False
 
-        if cleaned_lines.__len__() == 0:
+        if len(cleaned_lines) == 0:
             day_timestamp = line[:raw_time_start - 1]
             cleaned_lines.append("========================================== {} ==========================================\n\n".format(day_timestamp))
-        elif players_login_times.__len__() == 0:
+        elif len(players_login_times) == 0:
             cleaned_lines.append("\n")
             if day_timestamp != line[:raw_time_start - 1]:
                 day_timestamp = line[:raw_time_start - 1]
@@ -202,13 +200,13 @@ for line in raw_lines:
         clean_line = clean_line.replace("[INFO] ", "")
         clean_line = clean_ports_from_IP(clean_line)
 
-        if clean_line.__contains__("logged in with entity id"):
+        if clean_line.find("logged in with entity id"):
             clean_line = clean_login(clean_line, line)
-        elif clean_line.__contains__("lost connection"):
+        elif clean_line.find("lost connection"):
             clean_line = clean_logout(clean_line, line)
-        elif clean_line.__contains__("tried command"):
+        elif clean_line.find("tried command"):
             clean_line = clean_try_command(clean_line)
-        elif clean_line.__contains__("issued server command"):
+        elif clean_line.find("issued server command"):
             clean_line = clean_command(clean_line)
         else:
             clean_line = clean_line[:time_end] + "        " + clean_line[time_end:]
@@ -219,8 +217,6 @@ for line in raw_lines:
 
         if not keep_last_chatter:
             last_chatter = ""
-
-        iteration += 1
 
 print("Filter completed!")
 print("Writing new file")
