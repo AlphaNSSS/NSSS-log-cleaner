@@ -1,4 +1,6 @@
 from os.path import exists
+from inspect import signature
+from enum import Enum
 import datetime
 import json
 
@@ -81,51 +83,56 @@ def clean_logout(text: str, raw_text: str):
     clean_text = text[:time_end] + " LOGOUT " + username + " after {}\n".format(time_spent)
     return clean_text
 
-def clean_chat(text: str, last_username: str):
+def clean_chat(text: str):
+    text = text[:time_end] + "        " + text[time_end:]
+
     opening_bracket_pos = text.find("<", line_start)
     closing_bracket_pos = text.find(">", line_start)
-    if opening_bracket_pos != -1 and closing_bracket_pos != -1:
-        # get longest name and center conversation around that
-        longest_name = 0
-        for player_name in players_login_times:
-            length = player_name.__len__()
-            if longest_name < length:
-                longest_name = length
+    # get longest name and center conversation around that
+    longest_name = 0
+    for player_name in players_login_times:
+        length = player_name.__len__()
+        if longest_name < length:
+            longest_name = length
 
-        opening_bracket_garbage = text[opening_bracket_pos:opening_bracket_pos + 4]
-        closing_bracket_garbage = text[closing_bracket_pos - 3:closing_bracket_pos + 2]
+    opening_bracket_garbage = text[opening_bracket_pos:opening_bracket_pos + 4]
+    closing_bracket_garbage = text[closing_bracket_pos - 3:closing_bracket_pos + 2]
 
-        username = text[opening_bracket_pos:closing_bracket_pos + 2]
-        username = username.replace(opening_bracket_garbage, "")
-        username = username.replace(closing_bracket_garbage, "")
+    username = text[opening_bracket_pos:closing_bracket_pos + 2]
+    username = username.replace(opening_bracket_garbage, "")
+    username = username.replace(closing_bracket_garbage, "")
 
-        invisible = False
-        if last_username == username:
-            invisible = True
-        else:
-            last_username = username
+    global last_chatter
+    invisible = False
+    if last_chatter == username:
+        invisible = True
+    else:
+        last_chatter = username
 
-        missing_length = longest_name - username.__len__()
+    missing_length = longest_name - username.__len__()
 
-        compensation = ""
-        for i in range(missing_length):
-            compensation = compensation.__add__(" ")
+    compensation = ""
+    for i in range(missing_length):
+        compensation = compensation.__add__(" ")
 
-        if not invisible:
-            text = text.replace(opening_bracket_garbage, "- " + compensation)
-            text = text.replace(closing_bracket_garbage, ": ")
-        else:
-            text = text.replace(opening_bracket_garbage, "  " + compensation)
-            text = text.replace(closing_bracket_garbage, "- ")
+    if not invisible:
+        text = text.replace(opening_bracket_garbage, "- " + compensation)
+        text = text.replace(closing_bracket_garbage, ": ")
+    else:
+        text = text.replace(opening_bracket_garbage, "  " + compensation)
+        text = text.replace(closing_bracket_garbage, "- ")
 
-        if invisible:
-            inv_compensation = ""
-            for i in range(username.__len__()):
-                inv_compensation = inv_compensation.__add__(" ")
+    if invisible:
+        inv_compensation = ""
+        for i in range(username.__len__()):
+            inv_compensation = inv_compensation.__add__(" ")
 
-            text = text.replace(username, inv_compensation)
+        text = text.replace(username, inv_compensation)
 
-    return text, last_username
+    global keep_last_chatter
+    keep_last_chatter = True
+
+    return text
 
 def clean_try_command(text: str):
     username_index = time_end
@@ -172,48 +179,64 @@ cleaned_lines = [
 
 print("Begin filtration")
 
+# values can be accessed at xyz.value[0]
+class FormatType(Enum):
+    Chat = ["<", ">"],
+    Login = ["logged in with entity id"], # make all FormatTypes lists to avoid inconsistency
+    Logout = ["lost connection"],
+    TryCommand = ["tried command"],
+    Command = ["issued server command"]
+
+line_format_table = {
+    FormatType["Chat"]: clean_chat,
+    FormatType["Login"]: clean_login,
+    FormatType["Logout"]: clean_logout,
+    FormatType["TryCommand"]: clean_try_command,
+    FormatType["Command"]: clean_command
+}
+
+filter_start_time = datetime.datetime.now()
 players_login_times = {}
 last_chatter = ""
 day_timestamp = ""
 iteration = 0
 keep_last_chatter = False
-for line in raw_lines:
+for raw_line in raw_lines:
     # check if the line should be filtered out
     found_illegal = False
-    for item in filter:
-        low_line = line.lower()
-        if low_line.__contains__(item.lower()) or check_for_IP_at_index(low_line, raw_line_start):
-            found_illegal = True
+    if not (raw_line.__contains__("<") and raw_line.__contains__(">")): # if override condition is not met, run the filter
+        for item in filter:
+            low_line = raw_line.lower()
+            if low_line.__contains__(item.lower()) or check_for_IP_at_index(low_line, raw_line_start):
+                found_illegal = True
+                break
 
     # what should be done if it's not filtered out
     if not found_illegal:
         keep_last_chatter = False
 
-        if cleaned_lines.__len__() == 0:
-            day_timestamp = line[:raw_time_start - 1]
-            cleaned_lines.append("========================================== {} ==========================================\n\n".format(day_timestamp))
-        elif players_login_times.__len__() == 0:
+        if players_login_times.__len__() == 0:
             cleaned_lines.append("\n")
-            if day_timestamp != line[:raw_time_start - 1]:
-                day_timestamp = line[:raw_time_start - 1]
+            if day_timestamp != raw_line[:raw_time_start - 1]:
+                day_timestamp = raw_line[:raw_time_start - 1]
                 cleaned_lines.append("========================================== {} ==========================================\n\n".format(day_timestamp))
 
-        clean_line = line[raw_time_start:]
+        clean_line = raw_line[raw_time_start:]
         clean_line = clean_line.replace("[INFO] ", "")
         clean_line = clean_ports_from_IP(clean_line)
 
-        if clean_line.__contains__("logged in with entity id"):
-            clean_line = clean_login(clean_line, line)
-        elif clean_line.__contains__("lost connection"):
-            clean_line = clean_logout(clean_line, line)
-        elif clean_line.__contains__("tried command"):
-            clean_line = clean_try_command(clean_line)
-        elif clean_line.__contains__("issued server command"):
-            clean_line = clean_command(clean_line)
-        else:
-            clean_line = clean_line[:time_end] + "        " + clean_line[time_end:]
-            clean_line, last_chatter = clean_chat(clean_line, last_chatter)
-            keep_last_chatter = True
+        # check for a set of different conditions
+        # line formatting depends on what condition is met first
+        for format_type, formatting_function in line_format_table.items():
+            correct_type = False
+            for val in format_type.value[0]:
+                correct_type = val in clean_line
+            if correct_type:
+                if len(signature(formatting_function).parameters) == 1:
+                    clean_line = formatting_function(clean_line)
+                else:
+                    clean_line = formatting_function(clean_line, raw_line)
+                break
 
         cleaned_lines.append(clean_line)
 
@@ -222,7 +245,9 @@ for line in raw_lines:
 
         iteration += 1
 
-print("Filter completed!")
+seconds_taken_to_filter = (datetime.datetime.now() - filter_start_time).seconds
+microseconds_taken_to_filter = (datetime.datetime.now() - filter_start_time).microseconds
+print("Filtered {} lines in {}.{} seconds.".format(raw_lines.__len__(), seconds_taken_to_filter, microseconds_taken_to_filter))
 print("Writing new file")
 
 cleaned_log.writelines(cleaned_lines)
