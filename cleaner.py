@@ -2,7 +2,6 @@ from datetime import datetime
 from os.path import exists
 from inspect import signature
 from enum import Enum
-from datetime import datetime
 import json
 
 raw_time_start = 11
@@ -196,7 +195,7 @@ line_format_table = {
     FormatType["Command"]: clean_command
 }
 
-filter_start_time = datetime.datetime.now()
+filter_start_time = datetime.now()
 players_login_times = {}
 last_chatter = ""
 day_timestamp = ""
@@ -243,9 +242,9 @@ for raw_line in raw_lines:
         if not keep_last_chatter:
             last_chatter = ""
 
-seconds_taken_to_filter = (datetime.datetime.now() - filter_start_time).seconds
-microseconds_taken_to_filter = (datetime.datetime.now() - filter_start_time).microseconds
-print("Filtered {} lines in {}.{} seconds.".format(raw_lines.__len__(), seconds_taken_to_filter, microseconds_taken_to_filter))
+seconds_taken_to_filter = (datetime.now() - filter_start_time).seconds
+microseconds_taken_to_filter = (datetime.now() - filter_start_time).microseconds
+print("Filtered {} lines in {}.{} seconds.".format(len(raw_lines), seconds_taken_to_filter, microseconds_taken_to_filter))
 print("Writing new file")
 
 cleaned_log.writelines(cleaned_lines)
