@@ -1,7 +1,8 @@
+from datetime import datetime
 from os.path import exists
 from inspect import signature
 from enum import Enum
-import datetime
+from datetime import datetime
 import json
 
 raw_time_start = 11
@@ -50,7 +51,7 @@ def clean_login(text: str, raw_text: str):
     hour = int(text[:2])
     minute = int(text[3:5])
     second = int(text[6:8])
-    players_login_times[username] = datetime.datetime(year = year, month = month, day = day, hour = hour, minute = minute, second = second)
+    players_login_times[username] = datetime(year = year, month = month, day = day, hour = hour, minute = minute, second = second)
 
     clean_text = text[:time_end] + "  LOGIN " + username_IP + " at X:{} Y:{} Z:{}\n".format(coords[0], coords[1], coords[2])
     return clean_text
@@ -66,7 +67,7 @@ def clean_logout(text: str, raw_text: str):
     hour = int(text[:2])
     minute = int(text[3:5])
     second = int(text[6:8])
-    current_time = datetime.datetime(year = year, month = month, day = day, hour = hour, minute = minute, second = second)
+    current_time = datetime(year = year, month = month, day = day, hour = hour, minute = minute, second = second)
     time_spent = current_time - players_login_times[username]
     full_seconds_spent = int(time_spent.total_seconds())
     hours_spent = full_seconds_spent // 3600
@@ -91,7 +92,7 @@ def clean_chat(text: str):
     # get longest name and center conversation around that
     longest_name = 0
     for player_name in players_login_times:
-        length = player_name.__len__()
+        length = len(player_name)
         if longest_name < length:
             longest_name = length
 
@@ -109,11 +110,11 @@ def clean_chat(text: str):
     else:
         last_chatter = username
 
-    missing_length = longest_name - username.__len__()
+    missing_length = longest_name - len(username)
 
     compensation = ""
     for i in range(missing_length):
-        compensation = compensation.__add__(" ")
+        compensation += " "
 
     if not invisible:
         text = text.replace(opening_bracket_garbage, "- " + compensation)
@@ -121,12 +122,11 @@ def clean_chat(text: str):
     else:
         text = text.replace(opening_bracket_garbage, "  " + compensation)
         text = text.replace(closing_bracket_garbage, "- ")
-
+        
     if invisible:
         inv_compensation = ""
-        for i in range(username.__len__()):
-            inv_compensation = inv_compensation.__add__(" ")
-
+        for i in range(len(username)):
+            inv_compensation += " "
         text = text.replace(username, inv_compensation)
 
     global keep_last_chatter
@@ -140,7 +140,7 @@ def clean_try_command(text: str):
     username = text[username_index:username_end_index]
 
     command_index = text.find(":", username_end_index) + 2
-    end_of_the_line = text.__len__() - 1 # end of the line, pal
+    end_of_the_line = len(text) - 1 # end of the line, pal
 
     clean_text = text[:time_end] + "!!! CMD " + username + " tried /" + text[command_index:end_of_the_line] + " (failed)\n"
     return clean_text
@@ -151,30 +151,31 @@ def clean_command(text: str):
     username = text[username_index:username_end_index]
 
     command_index = text.find(":", username_end_index) + 2
-    end_of_the_line = text.__len__() - 1
+    end_of_the_line = len(text) - 1
 
     clean_text = text[:time_end] + "!!! CMD " + username + " issued /" + text[command_index:end_of_the_line] + " (success)\n"
     return clean_text
 
 
 raw_log = input("Enter log file path: ")
-if raw_log[raw_log.__len__() - 4:] != ".log":
+if not raw_log.endswith(".log"):
     print("ERROR: This isn't even a log file! Enter a valid one.")
     print("Exiting program...")
     exit()
 
 print("Opening files...")
 
-filter = open("filters.json", "r")
-filter = filter.read() # Read file as plaintext
-filter = json.loads(filter) # Turn plaintext into dictionary
+filter = {}
+with open("filters.json", "r") as file:
+    filter = file.read() # Read file as plaintext
+    filter = json.loads(filter) # Turn plaintext into dictionary
 
 raw_log = open(raw_log, "r")
 cleaned_log = open("cleaned.log", "w")
 
 raw_lines = raw_log.readlines()
 cleaned_lines = [
-    "Log cleaned at {}\n".format(datetime.datetime.now())
+    "Log cleaned at {}\n".format(datetime.now())
 ]
 
 print("Begin filtration")
@@ -199,15 +200,14 @@ filter_start_time = datetime.datetime.now()
 players_login_times = {}
 last_chatter = ""
 day_timestamp = ""
-iteration = 0
 keep_last_chatter = False
 for raw_line in raw_lines:
     # check if the line should be filtered out
     found_illegal = False
-    if not (raw_line.__contains__("<") and raw_line.__contains__(">")): # if override condition is not met, run the filter
+    if not ("<" in raw_line and ">" in raw_line): # if override condition is not met, run the filter
         for item in filter:
             low_line = raw_line.lower()
-            if low_line.__contains__(item.lower()) or check_for_IP_at_index(low_line, raw_line_start):
+            if item.lower() in low_line or check_for_IP_at_index(low_line, raw_line_start):
                 found_illegal = True
                 break
 
@@ -215,7 +215,7 @@ for raw_line in raw_lines:
     if not found_illegal:
         keep_last_chatter = False
 
-        if players_login_times.__len__() == 0:
+        if len(players_login_times) == 0:
             cleaned_lines.append("\n")
             if day_timestamp != raw_line[:raw_time_start - 1]:
                 day_timestamp = raw_line[:raw_time_start - 1]
@@ -242,8 +242,6 @@ for raw_line in raw_lines:
 
         if not keep_last_chatter:
             last_chatter = ""
-
-        iteration += 1
 
 seconds_taken_to_filter = (datetime.datetime.now() - filter_start_time).seconds
 microseconds_taken_to_filter = (datetime.datetime.now() - filter_start_time).microseconds
