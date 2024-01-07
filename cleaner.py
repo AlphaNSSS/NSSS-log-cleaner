@@ -6,11 +6,12 @@ import json
 
 raw_time_start = 11
 raw_line_start = 27
-time_end = 9
-line_start = 17
+time_end = 8
+line_start = 9
+content_start = 17
 
 def clean_ports_from_IP(text: str):
-    IP_pos = text.find("[", time_end)
+    IP_pos = text.find("[", line_start)
     port_pos = text.find(":", IP_pos)
     port_end_pos = text.find("]", port_pos)
     if port_pos != -1:
@@ -20,7 +21,7 @@ def clean_ports_from_IP(text: str):
     return text
 
 def check_for_IP_at_index(text: str, index: int):
-    IP_index = text.find("/", time_end)
+    IP_index = text.find("/", line_start)
     if IP_index != -1:
         IP_str = text[IP_index:IP_index + 3]
         if IP_str[1:].isnumeric() and IP_str[0] == "/":
@@ -30,11 +31,11 @@ def check_for_IP_at_index(text: str, index: int):
 def clean_login(text: str, raw_text: str):
     coords = []
 
-    username_index = time_end
+    username_index = line_start
     username_end_index = text.find(" ", username_index)
     username_IP_end_index = text.find("]", username_index) + 1
 
-    coord_start_index = text.find("(", time_end) + 1
+    coord_start_index = text.find("(", line_start) + 1
     for i in range(3):
         coord_end = text.find(".", coord_start_index)
         coords.append(text[coord_start_index:coord_end])
@@ -56,7 +57,7 @@ def clean_login(text: str, raw_text: str):
     return clean_text
 
 def clean_logout(text: str, raw_text: str):
-    username_index = time_end
+    username_index = line_start
     username_end_index = text.find(" ", username_index)
     username = text[username_index:username_end_index]
 
@@ -84,10 +85,10 @@ def clean_logout(text: str, raw_text: str):
     return clean_text
 
 def clean_chat(text: str):
-    text = text[:time_end] + "        " + text[time_end:]
+    text = text[:line_start] + "        " + text[line_start:]
 
-    opening_bracket_pos = text.find("<", line_start)
-    closing_bracket_pos = text.find(">", line_start)
+    opening_bracket_pos = text.find("<", content_start)
+    closing_bracket_pos = text.find(">", content_start)
     # get longest name and center conversation around that
     longest_name = 0
     for player_name in players_login_times:
@@ -134,7 +135,7 @@ def clean_chat(text: str):
     return text
 
 def clean_trycommand(text: str):
-    username_index = time_end
+    username_index = line_start
     username_end_index = text.find(" ", username_index)
     username = text[username_index:username_end_index]
 
@@ -145,7 +146,7 @@ def clean_trycommand(text: str):
     return clean_text
 
 def clean_command(text: str):
-    username_index = time_end
+    username_index = line_start
     username_end_index = text.find(" ", username_index)
     username = text[username_index:username_end_index]
 
