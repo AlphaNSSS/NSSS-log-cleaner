@@ -216,9 +216,13 @@ for raw_line in raw_lines:
 
         if len(players_login_times) == 0:
             cleaned_lines.append("\n")
-            if day_timestamp != raw_line[:raw_time_start - 1]:
-                day_timestamp = raw_line[:raw_time_start - 1]
+
+        if day_timestamp != raw_line[:raw_time_start - 1]:
+            day_timestamp = raw_line[:raw_time_start - 1]
+            if len(players_login_times) == 0:
                 cleaned_lines.append("========================================== {} ==========================================\n\n".format(day_timestamp))
+            else:
+                cleaned_lines.append("{} ==========\n".format(day_timestamp))
 
         clean_line = raw_line[raw_time_start:]
         clean_line = clean_line.replace("[INFO] ", "")
