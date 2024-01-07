@@ -52,7 +52,7 @@ def clean_login(text: str, raw_text: str):
     second = int(text[6:8])
     players_login_times[username] = datetime(year = year, month = month, day = day, hour = hour, minute = minute, second = second)
 
-    clean_text = text[:time_end] + "  LOGIN " + username_IP + " at X:{} Y:{} Z:{}\n".format(coords[0], coords[1], coords[2])
+    clean_text = f"{text[:time_end]}   LOGIN {username_IP} at X:{coords[0]} Y:{coords[1]} Z:{coords[1]}\n"
     return clean_text
 
 def clean_logout(text: str, raw_text: str):
@@ -76,11 +76,11 @@ def clean_logout(text: str, raw_text: str):
     elif full_seconds_spent < 6000:
         time_spent = str(minutes_spent) + "min"
     else:
-        time_spent = "{}h {}min".format(hours_spent, minutes_spent)
+        time_spent = f"{hours_spent}h {minutes_spent}min"
 
     players_login_times.pop(username)
 
-    clean_text = text[:time_end] + " LOGOUT " + username + " after {}\n".format(time_spent)
+    clean_text = f"{text[:time_end]}  LOGOUT {username} after {time_spent}\n"
     return clean_text
 
 def clean_chat(text: str):
@@ -141,7 +141,7 @@ def clean_trycommand(text: str):
     command_index = text.find(":", username_end_index) + 2
     end_of_the_line = len(text) - 1 # end of the line, pal
 
-    clean_text = text[:time_end] + "!!! CMD " + username + " tried /" + text[command_index:end_of_the_line] + " (failed)\n"
+    clean_text = f"{text[:time_end]} !!! CMD {username} tried /{text[command_index:end_of_the_line]} (failed)\n"
     return clean_text
 
 def clean_command(text: str):
@@ -152,7 +152,7 @@ def clean_command(text: str):
     command_index = text.find(":", username_end_index) + 2
     end_of_the_line = len(text) - 1
 
-    clean_text = text[:time_end] + "!!! CMD " + username + " issued /" + text[command_index:end_of_the_line] + " (success)\n"
+    clean_text = f"{text[:time_end]} !!! CMD {username} issued /{text[command_index:end_of_the_line]} (success)\n"
     return clean_text
 
 
@@ -174,7 +174,7 @@ cleaned_log = open("cleaned.log", "w")
 
 raw_lines = raw_log.readlines()
 cleaned_lines = [
-    "Log cleaned at {}\n".format(datetime.now())
+    f"Log cleaned at {datetime.now()}\n"
 ]
 
 print("Begin filtration")
@@ -222,9 +222,9 @@ for raw_line in raw_lines:
         if day_timestamp != raw_line[:raw_time_start - 1]:
             day_timestamp = raw_line[:raw_time_start - 1]
             if len(players_login_times) == 0:
-                cleaned_lines.append("========================================== {} ==========================================\n\n".format(day_timestamp))
+                cleaned_lines.append(f"========================================== {day_timestamp} ==========================================\n\n")
             else:
-                cleaned_lines.append("{} ==========\n".format(day_timestamp))
+                cleaned_lines.append(f"{day_timestamp} ==========\n")
 
         clean_line = raw_line[raw_time_start:]
         clean_line = clean_line.replace("[INFO] ", "")
@@ -252,7 +252,7 @@ for raw_line in raw_lines:
 
 seconds_taken_to_filter = (datetime.now() - filter_start_time).seconds
 microseconds_taken_to_filter = (datetime.now() - filter_start_time).microseconds
-print("Filtered {} lines in {}.{} seconds.".format(len(raw_lines), seconds_taken_to_filter, microseconds_taken_to_filter))
+print(f"Filtered {len(raw_lines)} lines in {seconds_taken_to_filter}.{microseconds_taken_to_filter} seconds.")
 print("Writing new file")
 
 cleaned_log.writelines(cleaned_lines)
