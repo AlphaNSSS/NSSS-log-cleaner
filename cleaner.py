@@ -133,7 +133,7 @@ def clean_chat(text: str):
 
     return text
 
-def clean_try_command(text: str):
+def clean_trycommand(text: str):
     username_index = time_end
     username_end_index = text.find(" ", username_index)
     username = text[username_index:username_end_index]
@@ -179,21 +179,23 @@ cleaned_lines = [
 
 print("Begin filtration")
 
-# values can be accessed at xyz.value[0]
+# values can be accessed at xyz.value["item_to_access"]
 class FormatType(Enum):
-    Chat = ["<", ">"],
-    Login = ["logged in with entity id"], # make all FormatTypes lists to avoid inconsistency
-    Logout = ["lost connection"],
-    TryCommand = ["tried command"],
-    Command = ["issued server command"]
-
-line_format_table = {
-    FormatType["Chat"]: clean_chat,
-    FormatType["Login"]: clean_login,
-    FormatType["Logout"]: clean_logout,
-    FormatType["TryCommand"]: clean_try_command,
-    FormatType["Command"]: clean_command
-}
+    Chat = {
+        "filters": ["<", ">"]
+    }
+    Login = {
+        "filters": ["logged in with entity id"]
+    }
+    Logout = {
+        "filters": ["lost connection"]
+    }
+    TryCommand = {
+        "filters": ["tried command"]
+    }
+    Command = {
+        "filters": ["issued server command"]
+    }
 
 filter_start_time = datetime.now()
 players_login_times = {}
@@ -230,11 +232,13 @@ for raw_line in raw_lines:
 
         # check for a set of different conditions
         # line formatting depends on what condition is met first
-        for format_type, formatting_function in line_format_table.items():
+        for format_type in FormatType:
             correct_type = False
-            for val in format_type.value[0]:
+            for val in format_type.value["filters"]:
                 correct_type = val in clean_line
             if correct_type:
+                formatting_function = f"clean_{format_type.name.lower()}"
+                formatting_function = globals()[formatting_function] # converts string to function
                 if len(signature(formatting_function).parameters) == 1:
                     clean_line = formatting_function(clean_line)
                 else:
